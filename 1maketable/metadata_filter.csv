@@ -1,0 +1,480 @@
+"","study_id","CDAI","Group","Age","Gender","Smoke","Region","BMI","White Blood Cell Count","C-Reactive Protein","History of bowel resection\surgery","Inflammatory","Stricturing","Penetrating","Any medications?","Any ORAL aminosalicilate?","Any systemic steroids?","Any ORAL immunosuppression?","Any Biological therapy"
+"1","AUS1002",19,"CD inactive",41.6904109589041,"Female","Past/Ex smoker","Australia",23.3066800530675,7.9,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"2","AUS1005",23.5563507109581,"CD inactive",39.1150684931507,"Male","Past/Ex smoker","Australia",24.1870464928783,4.2,"<10","No","No","No","Yes","No","No","No","No","Yes"
+"3","AUS1006",100,"CD inactive",22.6575342465753,"Female","Past/Ex smoker","Australia",27.3588454567217,NA,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"4","AUS1007",42.4530076119901,"CD inactive",28.0657534246575,"Male","Never smoker","Australia",20.4528853177502,7.5,"<10","Yes","Yes","No","No","No","No","No","Yes","No"
+"5","AUS1008",160,"CD active",47.3068493150685,"Female","Never smoker","Australia",30.4831580551745,7.6,"<10","No","Yes","No","No","Yes","No","No","No","Yes"
+"6","AUS1010",84.8949779341936,"CD inactive",33.2931506849315,"Male","Never smoker","Australia",26.5432098765432,3.9,"<10","Yes","No","Yes","No","Yes","No","No","Yes","Yes"
+"7","AUS1011",103.142349035397,"CD inactive",30.4,"Male","Never smoker","Australia",24.4995408631772,4.3,">=10","No","No","No","Yes","Yes","No","No","Yes","No"
+"8","AUS1012",32.9944668635853,"CD inactive",28.2630136986301,"Female","Never smoker","Australia",18.9291508923743,5.2,"<10","No","No","No","Yes","Yes","No","No","Yes","Yes"
+"9","AUS1013",67,"CD inactive",33.7095890410959,"Female","Past/Ex smoker","Australia",24.3024064665534,6.7,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"10","AUS1015",127,"CD inactive",43.9506849315068,"Female","Past/Ex smoker","Australia",26.8135904499541,8.4,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"11","AUS1016",99,"CD inactive",35.1616438356164,"Female","Past/Ex smoker","Australia",28.9993074792244,5.3,"<10","Yes","No","Yes","Yes","Yes","No","No","No","Yes"
+"12","AUS1017",164.824426909988,"CD active",48.5452054794521,"Male","Current smoker","Australia",23.2438016528926,4.7,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"13","AUS1021",70,"CD inactive",37.8958904109589,"Male","Never smoker","Australia",26.0628195763331,6.9,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"14","AUS1022",157.792343624057,"CD active",47.2438356164384,"Female","Current smoker","Australia",16.4751925261962,23.8,"<10","Yes","No","No","Yes","No","No","Yes","Yes","Yes"
+"15","AUS1023",79,"CD inactive",27.0246575342466,"Female","Never smoker","Australia",25.2173585757838,4.3,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"16","AUS1024",213,"CD active",51.041095890411,"Female","Never smoker","Australia",23.7118446309609,9.9,"<10","No","No","Yes","Yes","Yes","No","No","No","Yes"
+"17","AUS1027",45,"CD inactive",56.3260273972603,"Female","Never smoker","Australia",28.5374554102259,7.8,"<10","No","Yes","No","No","Yes","No","No","No","Yes"
+"18","AUS1028",31.9936764155261,"CD inactive",22.4082191780822,"Male","Never smoker","Australia",22.9853975121687,6,"<10","No","No","Yes","No","Yes","No","No","Yes","Yes"
+"19","AUS1029",177.349155046634,"CD active",55.0794520547945,"Male","Never smoker","Australia",19.5918367346939,4.9,"<10","Yes","No","Yes","Yes","Yes","Yes","No","No","No"
+"20","AUS1032",42,"CD inactive",38.441095890411,"Male","Never smoker","Australia",29.0547520661157,7.7,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"21","AUS1033",209,"CD active",61.7424657534247,"Male","Past/Ex smoker","Australia",27.4716888983853,4.7,"<10","Yes","No","No","Yes","Yes","No","Yes","No","No"
+"22","AUS1034",129.836887383883,"CD inactive",24.8383561643836,"Female","Never smoker","Australia",18.9619274241523,10.6,"<10","No","Yes","No","No","No","Yes","No","No","No"
+"23","AUS1035",63.8112594476231,"CD inactive",26.186301369863,"Female","Past/Ex smoker","Australia",21.6712580348944,5.9,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"24","AUS1036",73,"CD inactive",29.1205479452055,"Male","Never smoker","Australia",24.7409372871024,6.9,"<10","No","Yes","No","No","No","No","No","Yes","Yes"
+"25","AUS1040",56,"CD inactive",49.3835616438356,"Male","Past/Ex smoker","Australia",29.3962214295151,4.8,"<10","Yes","No","Yes","No","Yes","No","No","Yes","No"
+"26","AUS1041",93,"CD inactive",67.2630136986301,"Female","Never smoker","Australia",37.2614701343671,8.2,"<10","No","Yes","No","No","Yes","No","Yes","No","Yes"
+"27","AUS1044",130,"CD inactive",54.2657534246575,"Female","Past/Ex smoker","Australia",29.3847566574839,5.3,"<10","Yes","No","Yes","No","Yes","No","No","No","Yes"
+"28","AUS1045",32.1234880485329,"CD inactive",27.1068493150685,"Male","Past/Ex smoker","Australia",20.3047091412742,6.2,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"29","AUS1046",226.411874305218,"CD active",25.2575342465753,"Male","Never smoker","Australia",16.2629757785467,10.4,">=10","Yes","Yes","No","No","No","No","Yes","Yes","No"
+"30","AUS1047",39,"CD inactive",35.2082191780822,"Female","Past/Ex smoker","Australia",26.2626262626263,6.4,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"31","AUS1048",30.8902550697184,"CD inactive",21.9698630136986,"Male","Never smoker","Australia",23.6712536295922,NA,NA,"No","Yes","Yes","No","No","No","Yes","Yes","Yes"
+"32","AUS1049",45.9820338391767,"CD inactive",24.027397260274,"Male","Never smoker","Australia",24.092970521542,5.2,"<10","No","Yes","No","No","No","No","Yes","Yes","No"
+"33","AUS1055",46.8749028749029,"CD inactive",22.4547945205479,"Female","Never smoker","Australia",17.1655066945476,8.7,">=10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"34","AUS1057",8,"CD inactive",42.9342465753425,"Male","Never smoker","Australia",28.7317468902109,4.6,"<10","Yes","No","No","Yes","No","No","No","No","No"
+"35","AUS1059",11.5726495726496,"CD inactive",19.1369863013699,"Female","Never smoker","Australia",20.8888888888889,4.2,"<10","Yes","Yes","No","No","Yes","No","No","Yes","No"
+"36","AUS1060",NA,"CD active",21.4547945205479,"Male","Never smoker","Australia",28.6801110976935,NA,NA,"No","Yes","No","No","Yes","No","No","No","Yes"
+"37","AUS1061",114.429808390593,"CD inactive",19.4767123287671,"Male","Never smoker","Australia",24.6097337006428,9.3,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"38","AUS1062",0,"CD inactive",26.558904109589,"Male","Never smoker","Australia",30.4132231404959,5.8,"<10","No","No","No","Yes","No","No","No","No","No"
+"39","AUS1063",63.5456888996265,"CD inactive",20.2986301369863,"Male","Never smoker","Australia",20.4528853177502,4.7,"<10","Yes","No","No","Yes","No","No","No","Yes","No"
+"40","AUS1064",180.17464486693,"CD active",45.0547945205479,"Male","Never smoker","Australia",22.7244034844085,5.8,"<10","No","Yes","No","No","Yes","No","No","No","No"
+"41","AUS1065",27.1496893042452,"CD inactive",25.172602739726,"Female","Never smoker","Australia",22.640864624717,6.9,"<10","No","No","No","Yes","Yes","No","No","No","Yes"
+"42","AUS1066",65,"CD inactive",48.0794520547945,"Male","Past/Ex smoker","Australia",41.0301729579598,7.6,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"43","AUS1067",160.843218537415,"CD active",31.213698630137,"Female","Past/Ex smoker","Australia",23.0300453514739,4.2,"<10","Yes","No","Yes","Yes","Yes","No","No","Yes","Yes"
+"44","AUS1069",223.545688899627,"CD active",42.7835616438356,"Female","Never smoker","Australia",19.6464967088777,4.6,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"45","AUS1070",92,"CD inactive",53.5890410958904,"Male","Past/Ex smoker","Australia",31.4359113034073,6.8,"<10","Yes","No","Yes","No","Yes","No","No","No","Yes"
+"46","AUS1071",0,"CD inactive",40.5095890410959,"Male","Never smoker","Australia",30.4705215419501,6.4,"<10","No","Yes","No","No","No","No","No","No","No"
+"47","AUS1073",228.412895927602,"CD active",38.3698630136986,"Male","Never smoker","Australia",24.21875,9.9,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"48","AUS1074",39.6029976905733,"CD inactive",31.8520547945205,"Female","Never smoker","Australia",22.5465764803607,8.3,"<10","Yes","Yes","No","No","Yes","No","No","Yes","No"
+"49","AUS1075",127,"CD inactive",45.9178082191781,"Male","Never smoker","Australia",34.2592592592593,4.7,"<10","Yes","No","Yes","No","Yes","No","No","No","No"
+"50","AUS1076",67,"CD inactive",53.2767123287671,"Female","Past/Ex smoker","Australia",27.458654210327,8.9,">=10","No","No","Yes","No","Yes","No","No","No","No"
+"51","AUS1077",20.7492792751567,"CD inactive",36.3506849315068,"Female","Past/Ex smoker","Australia",22.3081499107674,9.3,"<10","Yes","No","Yes","No","No","No","No","Yes","Yes"
+"52","AUS1078",25.623416681019,"CD inactive",28.8356164383562,"Male","Never smoker","Australia",20.4152249134948,7,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"53","AUS1079",108.198308373189,"CD inactive",18.7671232876712,"Male","Never smoker","Australia",22.4981738495252,NA,NA,"No","Yes","No","No","No","No","No","Yes","No"
+"54","AUS1080",126.841346153846,"CD inactive",42.5315068493151,"Female","Current smoker","Australia",20.625,11,"<10","Yes","No","Yes","No","Yes","No","No","Yes","Yes"
+"55","AUS1081",1.81125944762308,"CD inactive",29.0712328767123,"Female","Past/Ex smoker","Australia",21.6712580348944,6.3,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"56","AUS1082",17,"CD inactive",28.2082191780822,"Female","Never smoker","Australia",25.8064516129032,7.3,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"57","AUS1083",233,"CD active",60.6164383561644,"Male","Past/Ex smoker","Australia",26.1224489795918,6.7,"<10","Yes","No","No","Yes","Yes","No","No","No","Yes"
+"58","AUS1084",77,"CD inactive",58.7150684931507,"Female","Never smoker","Australia",28.5777777777778,6.6,"<10","No","Yes","Yes","No","No","No","No","No","No"
+"59","AUS1085",126.615217407001,"CD inactive",22.7013698630137,"Male","Past/Ex smoker","Australia",21.0800369530528,8.8,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"60","AUS1087",NA,"CD active",48.0821917808219,"Male","Current smoker","Australia",21.8358948517679,8.3,"<10","Yes","No","No","Yes","No","No","No","No","Yes"
+"61","AUS1089",60.5690809437111,"CD inactive",33.8904109589041,"Female","Never smoker","Australia",21.7784352399737,8.4,"<10","No","Yes","No","No","Yes","No","No","No","Yes"
+"62","AUS1091",34,"CD inactive",46.013698630137,"Male","Never smoker","Australia",24.8356464572681,5.3,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"63","AUS1093",55,"CD inactive",52.8986301369863,"Male","Never smoker","Australia",37.5765984506879,7.3,"<10","Yes","No","No","Yes","Yes","No","No","No","Yes"
+"64","AUS1094",21.1202541945129,"CD inactive",46.3424657534247,"Female","Never smoker","Australia",22.2309871275413,7.5,"<10","No","Yes","No","No","No","No","No","No","No"
+"65","AUS1095",65,"CD inactive",25.7506849315069,"Female","Never smoker","Australia",35.8564308508731,5.3,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"66","AUS1097",37,"CD inactive",20.7095890410959,"Female","Never smoker","Australia",22.9214498099289,4.4,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"67","AUS1098",58,"CD inactive",30.572602739726,"Female","Never smoker","Australia",42.9770884770777,5.9,">=10","No","No","Yes","No","No","No","No","Yes","Yes"
+"68","AUS1099",121,"CD inactive",43.2054794520548,"Male","Never smoker","Australia",28.6340394448503,8.6,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"69","AUS1100",49.7956567242282,"CD inactive",27.386301369863,"Female","Never smoker","Australia",21.2585034013605,5.3,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"70","AUS1101",47.3958206415454,"CD inactive",28.3424657534247,"Male","Never smoker","Australia",18.2555236382185,5.3,"<10","Yes","No","No","Yes","No","No","No","No","No"
+"71","AUS1102",14,"CD inactive",51.5369863013699,"Female","Never smoker","Australia",25.8166302126286,5.4,"<10","No","No","No","Yes","No","No","No","No","No"
+"72","AUS1103",2,"CD inactive",52.5041095890411,"Female","Never smoker","Australia",29.7441998810232,7.8,">=10","No","Yes","No","No","No","No","No","No","No"
+"73","AUS1104",0,"CD inactive",42.586301369863,"Female","Never smoker","Australia",25,NA,"<10","Yes","Yes","No","No","Yes","No","No","No","No"
+"74","AUS1105",156,"CD active",33.6027397260274,"Male","Never smoker","Australia",26.4721074380165,5.1,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"75","AUS1107",11.0309047317372,"CD inactive",30.5945205479452,"Male","Never smoker","Australia",22.0931700542861,4.4,"<10","Yes","Yes","No","No","No","No","No","Yes","No"
+"76","AUS1108",19,"CD inactive",65.2794520547945,"Female","Past/Ex smoker","Australia",26.3605442176871,7.2,"<10","No","No","Yes","No","No","No","No","No","No"
+"77","AUS1109",33.4958868452058,"CD inactive",28.4739726027397,"Male","Never smoker","Australia",23.0954090072095,5.8,"<10","No","No","Yes","No","No","No","No","Yes","No"
+"78","AUS1111",0,"CD inactive",41.2,"Female","Past/Ex smoker","Australia",27.5873260578522,8.3,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"79","AUS1113",30.2219396764851,"CD inactive",33.2219178082192,"Female","Past/Ex smoker","Australia",22.0018365472911,5.6,"<10","Yes","Yes","No","No","Yes","No","No","Yes","No"
+"80","AUS1114",36,"CD inactive",62.627397260274,"Female","Never smoker","Australia",23.7953599048186,NA,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"81","AUS1115",61.6139601139601,"CD inactive",25.6767123287671,"Female","Never smoker","Australia",21.2962962962963,NA,">=10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"82","AUS1116",92,"CD inactive",38.6657534246575,"Female","Past/Ex smoker","Australia",30.1109905115367,5.5,"<10","No","Yes","No","No","No","Yes","No","No","No"
+"83","AUS1117",52,"CD inactive",44.8657534246575,"Male","Past/Ex smoker","Australia",28.4081841105685,7.7,"<10","No","Yes","No","No","Yes","No","No","No","Yes"
+"84","AUS1118",18.789864142261,"CD inactive",51.9698630136986,"Female","Past/Ex smoker","Australia",21.0517082584097,7.6,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"85","AUS1120",112.144757826546,"CD inactive",30.5095890410959,"Male","Never smoker","Australia",21.8470085203333,5.4,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"86","AUS1121",23.0613054421587,"CD inactive",19.9890410958904,"Male","Never smoker","Australia",19.6554514972829,4.8,"<10","No","Yes","No","No","No","Yes","No","Yes","No"
+"87","AUS1122",30.8034822320537,"CD inactive",71.4219178082192,"Female","Current smoker","Australia",18.5528756957328,13.7,"<10","Yes","Yes","No","No","Yes","No","No","Yes","No"
+"88","AUS1123",32,"CD inactive",26.8712328767123,"Male","Past/Ex smoker","Australia",29.104084223656,6.1,">=10","No","Yes","No","No","Yes","No","No","Yes","No"
+"89","AUS1125",78,"CD inactive",35.7616438356164,"Female","Past/Ex smoker","Australia",33.203125,7,NA,"No","Yes","No","No","Yes","No","No","No","Yes"
+"90","AUS1126",115.442111364571,"CD inactive",78.2,"Male","Past/Ex smoker","Australia",24.2122933884298,8.4,"<10","Yes","Yes","No","No","No","Yes","No","No","No"
+"91","AUS1128",5.74272297256841,"CD inactive",18.0794520547945,"Male","Never smoker","Australia",23.9248582230624,6.5,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"92","AUS1129",64,"CD inactive",64.2493150684931,"Male","Past/Ex smoker","Australia",29.7370443382672,4.5,"<10","No","Yes","No","No","No","Yes","No","No","No"
+"93","AUS1131",46,"CD inactive",56.6904109589041,"Female","Past/Ex smoker","Australia",25.9515570934256,3.8,"<10","Yes","No","Yes","No","Yes","No","No","Yes","No"
+"94","AUS1132",34.459034664141,"CD inactive",29.5397260273973,"Male","Never smoker","Australia",21.7775533392248,5.6,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"95","AUS1133",44,"CD inactive",54.1068493150685,"Female","Past/Ex smoker","Australia",30.6476757369615,4.2,"<10","Yes","No","Yes","No","No","No","No","Yes","No"
+"96","HK1001",50.5160469085159,"CD inactive",53.6794520547945,"Male","Past/Ex smoker","Hong Kong",22.560553633218,5.8,"<10","No","Yes","No","No","Yes","Yes","No","No","No"
+"97","HK1002",37.4,"CD inactive",22.1260273972603,"Male","Never smoker","Hong Kong",28.1152620706558,7.1,"<10","No","No","No","Yes","No","Yes","No","Yes","Yes"
+"98","HK1003",216.6,"CD active",29.6109589041096,"Male","Never smoker","Hong Kong",24.4540858402955,14.2,">=10","No","Yes","No","No","Yes","No","Yes","Yes","Yes"
+"99","HK1004",70.7106775355191,"CD inactive",21.4109589041096,"Male","Never smoker","Hong Kong",20.7053402646503,3.4,"<10","No","No","No","Yes","Yes","No","No","Yes","Yes"
+"100","HK1005",80.0113611403468,"CD inactive",33.5342465753425,"Female","Never smoker","Hong Kong",20.5480368828079,3.8,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"101","HK1006",111.536752136752,"CD inactive",66.9561643835616,"Female","Never smoker","Hong Kong",20.3555555555556,5.4,"<10","Yes","No","Yes","No","Yes","No","No","Yes","No"
+"102","HK1007",259,"CD active",0.271232876712329,"Female","Never smoker","Hong Kong",15.0805391190007,7.9,"<10","Yes","No","Yes","No","Yes","Yes","No","Yes","No"
+"103","HK1008",65.3821906913117,"CD inactive",25.9424657534247,"Male","Never smoker","Hong Kong",21.9713358572201,4.7,"<10","No","Yes","No","No","No","Yes","No","Yes","Yes"
+"104","HK1009",77.8503882464667,"CD inactive",27.2657534246575,"Male","Never smoker","Hong Kong",22.5308641975309,4,"<10","No","No","Yes","No","No","Yes","No","No","Yes"
+"105","HK1010",22.7817936821364,"CD inactive",44.1342465753425,"Male","Never smoker","Hong Kong",23.1206235962479,6.5,"<10","No","No","No","Yes","No","No","No","Yes","No"
+"106","HK1011",153.029187868919,"CD active",48.0849315068493,"Male","Current smoker","Hong Kong",22.4913494809689,5.4,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"107","HK1012",48.1554123162157,"CD inactive",27.9068493150685,"Female","Never smoker","Hong Kong",21.6412742382271,5.9,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"108","HK1013",NA,"CD active",25.2465753424658,"Male","Current smoker","Hong Kong",28.3737024221453,6.8,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"109","HK1014",130.149155046634,"CD inactive",35.9643835616438,"Male","Never smoker","Hong Kong",19.5918367346939,5.7,">=10","No","No","Yes","No","No","No","No","Yes","Yes"
+"110","HK1015",41.4,"CD inactive",31.2767123287671,"Female","Never smoker","Hong Kong",24.828593452067,5.5,"<10","No","No","No","Yes","No","No","No","No","Yes"
+"111","HK1016",55.6,"CD inactive",32.5616438356164,"Female","Past/Ex smoker","Hong Kong",32.5567390567955,5.4,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"112","HK1017",217.052527742026,"CD active",54.9616438356164,"Female","Never smoker","Hong Kong",20.3314742296586,10.3,"<10","No","No","No","Yes","No","No","No","Yes","No"
+"113","HK1018",75,"CD inactive",29.7397260273973,"Male","Current smoker","Hong Kong",29.0367377856331,4.9,"<10","No","No","No","Yes","No","No","No","Yes","No"
+"114","HK1019",50.7481295855348,"CD inactive",30.2438356164384,"Female","Never smoker","Hong Kong",19.2299890462088,5.9,"<10","No","Yes","No","No","No","No","No","Yes","Yes"
+"115","HK1020",10.8,"CD inactive",43.0301369863014,"Female","Never smoker","Hong Kong",27.6494800012568,8,"<10","No","Yes","No","No","No","Yes","Yes","Yes","No"
+"116","HK1021",88.5246634266242,"CD inactive",27.2767123287671,"Male","Never smoker","Hong Kong",20.216049382716,13.9,"<10","No","Yes","No","No","Yes","No","Yes","Yes","No"
+"117","HK1022",73.6,"CD inactive",57.3945205479452,"Male","Never smoker","Hong Kong",24.5778671518401,9.2,"<10","Yes","No","Yes","No","Yes","No","No","Yes","Yes"
+"118","HK1024",75.4589601076031,"CD inactive",30.2657534246575,"Female","Never smoker","Hong Kong",18.4997362976186,6.3,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"119","HK1025",125.452743597025,"CD inactive",48.5150684931507,"Female","Never smoker","Hong Kong",15.1730293318187,6.4,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"120","HK1026",63.2,"CD inactive",40.2904109589041,"Male","Past/Ex smoker","Hong Kong",27.6094517551723,7.1,"<10","Yes","No","No","Yes","No","No","No","No","Yes"
+"121","HK1027",57,"CD inactive",26.8821917808219,"Male","Never smoker","Hong Kong",24.7566574839302,5.7,"<10","No","No","Yes","No","Yes","No","No","Yes","No"
+"122","HK1028",36.2393308681636,"CD inactive",22.9369863013699,"Female","Never smoker","Hong Kong",16.382219179422,9.9,"<10","No","No","No","Yes","No","No","Yes","Yes","Yes"
+"123","HK1029",122.94883728283,"CD inactive",24.6493150684932,"Male","Never smoker","Hong Kong",20.9621069604945,5.4,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"124","HK1030",35.6,"CD inactive",67.6630136986301,"Male","Past/Ex smoker","Hong Kong",25.2321657857804,4.5,"<10","No","Yes","No","No","Yes","Yes","No","Yes","No"
+"125","HK1031",66,"CD inactive",38.5972602739726,"Female","Never smoker","Hong Kong",23.5294117647059,9.5,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"126","HK1032",48.873327901675,"CD inactive",60.5369863013699,"Male","Never smoker","Hong Kong",20.4483945337298,4.3,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"127","HK1035",34.3492355719203,"CD inactive",39.0191780821918,"Female","Never smoker","Hong Kong",18.8553590010406,8.1,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"128","HK1036",58.8,"CD inactive",22.5424657534247,"Male","Never smoker","Hong Kong",32.4499729583559,8.8,"<10","No","Yes","No","No","No","Yes","No","Yes","No"
+"129","HK1037",289.417645493119,"CD active",47.6794520547945,"Male","Never smoker","Hong Kong",18.3391003460208,6.8,"<10","No","No","Yes","No","Yes","No","No","No","Yes"
+"130","HK1038",63.1048171365101,"CD inactive",41.7780821917808,"Female","Never smoker","Hong Kong",20.7365980356059,7,"<10","Yes","No","No","Yes","Yes","No","No","No","No"
+"131","HK1039",NA,"CD active",48.1041095890411,"Male","Never smoker","Hong Kong",25.078125,4.1,"<10","No","Yes","No","No","No","Yes","No","Yes","No"
+"132","HK1041",98.7948926709358,"CD inactive",25.558904109589,"Male","Never smoker","Hong Kong",22.1453287197232,8.8,"<10","No","No","No","Yes","No","No","No","No","Yes"
+"133","HK1043",241.387110348211,"CD active",59.8465753424658,"Male","Never smoker","Hong Kong",18.7436486130453,5.6,">=10","No","No","Yes","No","Yes","No","Yes","Yes","No"
+"134","HK1044",NA,"CD active",50.5479452054795,"Male","Never smoker","Hong Kong",23.3608815426997,6.6,">=10","Yes","Yes","No","No","No","No","No","Yes","No"
+"135","HK1045",109.468191220068,"CD inactive",53.3315068493151,"Female","Never smoker","Hong Kong",22.4914162262258,5.4,"<10","No","No","Yes","No","Yes","No","No","Yes","No"
+"136","HK1047",46.8,"CD inactive",20.427397260274,"Male","Past/Ex smoker","Hong Kong",26.5887509130752,6.4,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"137","HK1048",108.492277450418,"CD inactive",29.7534246575342,"Male","Never smoker","Hong Kong",17.2618066834577,5.8,"<10","No","Yes","No","No","No","No","No","Yes","Yes"
+"138","HK1049",98.3238895558223,"CD inactive",55.7315068493151,"Male","Never smoker","Hong Kong",19.9510204081633,4.3,"<10","Yes","No","No","Yes","No","No","No","Yes","Yes"
+"139","HK1050",51.0317307692308,"CD inactive",72.8794520547945,"Male","Past/Ex smoker","Hong Kong",23.2421875,6.4,">=10","Yes","No","No","Yes","No","Yes","No","Yes","No"
+"140","HK1052",73.589154785481,"CD inactive",59.8082191780822,"Male","Past/Ex smoker","Hong Kong",24.2239967924087,5.3,"<10","No","No","No","Yes","Yes","Yes","No","Yes","No"
+"141","HK1053",139.748060171113,"CD inactive",31.3260273972603,"Male","Past/Ex smoker","Hong Kong",24.1446787021841,5.1,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"142","HK1054",68.4443694089785,"CD inactive",20.5753424657534,"Female","Never smoker","Hong Kong",20.9571711629325,6.3,"<10","No","Yes","No","No","Yes","No","No","Yes","Yes"
+"143","HK1055",145.360597472952,"CD inactive",39.9068493150685,"Male","Never smoker","Hong Kong",21.7993079584775,5.6,">=10","No","No","No","Yes","Yes","No","Yes","No","Yes"
+"144","HK1056",185.8,"CD active",60.841095890411,"Female","Never smoker","Hong Kong",25.9262465373961,4.1,"<10","No","No","No","Yes","Yes","Yes","No","Yes","No"
+"145","HK1057",27.4,"CD inactive",69.0328767123288,"Male","Past/Ex smoker","Hong Kong",30.6728101466508,6.4,"<10","No","Yes","No","No","No","Yes","No","Yes","No"
+"146","HK1058",0,"CD inactive",31.827397260274,"Female","Never smoker","Hong Kong",24.2796962145485,10.7,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"147","HK1059",91.096500138517,"CD inactive",50.027397260274,"Male","Never smoker","Hong Kong",23.1836734693878,6.6,">=10","No","Yes","No","No","No","No","Yes","Yes","No"
+"148","HK1060",54.1730996303428,"CD inactive",30.358904109589,"Male","Never smoker","Hong Kong",21.6197449816942,6.8,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"149","HK1061",42.1479626545248,"CD inactive",35.8931506849315,"Male","Never smoker","Hong Kong",18.61970025335,6.7,"<10","Yes","No","No","Yes","No","No","No","Yes","Yes"
+"150","HK1063",127.651845480722,"CD inactive",44.8520547945205,"Male","Never smoker","Hong Kong",19.9669421487603,4.9,"<10","No","Yes","No","No","Yes","Yes","No","No","No"
+"151","HK1064",44.2076769169206,"CD inactive",28.3150684931507,"Male","Past/Ex smoker","Hong Kong",21.2585034013605,7.1,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"152","HK1065",0,"CD inactive",53.6520547945205,"Male","Never smoker","Hong Kong",22.4996371026274,5.7,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"153","HK1066",57.5678064063091,"CD inactive",49.2712328767123,"Male","Never smoker","Hong Kong",23.8751147842057,7,"<10","No","No","Yes","No","No","Yes","No","No","No"
+"154","HK1067",209.559871084594,"CD active",65.0027397260274,"Female","Never smoker","Hong Kong",19.4771468144044,9.8,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"155","HK1068",77.8,"CD inactive",29.4109589041096,"Female","Never smoker","Hong Kong",23.3333333333333,9.1,"<10","No","No","No","Yes","Yes","No","Yes","Yes","No"
+"156","HK1069",9.20000000000002,"CD inactive",27.7945205479452,"Female","Never smoker","Hong Kong",24.9770431588613,9.4,"<10","No","No","No","Yes","No","Yes","No","Yes","No"
+"157","HK1070",123.312256574594,"CD inactive",23.8,"Female","Never smoker","Hong Kong",16.8662506324844,5.6,"<10","No","No","No","Yes","No","No","No","Yes","No"
+"158","HK1071",63,"CD inactive",28.3835616438356,"Male","Never smoker","Hong Kong",27.4717071277136,5.3,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"159","HK1072",168.251528303629,"CD active",44.5835616438356,"Male","Past/Ex smoker","Hong Kong",22.530612244898,6.3,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"160","HK1073",198.062593519283,"CD active",42.6739726027397,"Female","Never smoker","Hong Kong",17.6253805479891,4.1,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"161","HK1074",0,"CD inactive",24.8739726027397,"Female","Never smoker","Hong Kong",24.3496091246956,3.8,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"162","HK1077",93.2043200359203,"CD inactive",40.1890410958904,"Male","Never smoker","Hong Kong",23.5134452720616,4.9,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"163","HK1078",97.8397307641005,"CD inactive",47.1972602739726,"Male","Never smoker","Hong Kong",17.7154195011338,5.1,">=10","No","No","Yes","No","No","No","No","Yes","Yes"
+"164","HK1079",35.7048951048951,"CD inactive",55.827397260274,"Female","Never smoker","Hong Kong",21.8181818181818,4.5,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"165","HK1081",118.271396763834,"CD inactive",43.1835616438356,"Male","Current smoker","Hong Kong",18.6366213151927,7.5,"<10","No","No","No","Yes","Yes","No","No","Yes","Yes"
+"166","HK1083",44.6,"CD inactive",41.241095890411,"Male","Past/Ex smoker","Hong Kong",29.8828125,5.9,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"167","HK1084",72.939974975325,"CD inactive",44.7397260273973,"Male","Never smoker","Hong Kong",23.6160655304532,7.1,"<10","No","No","Yes","No","Yes","No","No","Yes","No"
+"168","HK1085",203.401037371341,"CD active",34.8109589041096,"Male","Never smoker","Hong Kong",18.4753707409336,8.5,"<10","No","No","No","Yes","Yes","No","No","Yes","Yes"
+"169","HK1086",104.593676415526,"CD inactive",55.7178082191781,"Male","Never smoker","Hong Kong",22.9853975121687,4.5,"<10","No","Yes","No","No","Yes","Yes","No","Yes","No"
+"170","HK1087",14.4,"CD inactive",43.4027397260274,"Male","Past/Ex smoker","Hong Kong",26.2120761451517,8.2,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"171","HK1088",75.6673306369193,"CD inactive",41.972602739726,"Female","Never smoker","Hong Kong",21.0771952275208,6.5,"<10","Yes","No","No","Yes","No","No","No","No","Yes"
+"172","HK1089",89.4,"CD inactive",43.558904109589,"Male","Past/Ex smoker","Hong Kong",25.359268707483,6.5,"<10","No","Yes","No","No","Yes","Yes","No","No","No"
+"173","HK1090",NA,"CD active",38.6684931506849,"Female","Never smoker","Hong Kong",19.5716812826979,6.1,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"174","HK1092",76,"CD inactive",32.9452054794521,"Male","Past/Ex smoker","Hong Kong",24.7871139837899,9.9,">=10","No","Yes","No","No","Yes","Yes","No","No","No"
+"175","HK1093",38.2739536896975,"CD inactive",36.3178082191781,"Male","Past/Ex smoker","Hong Kong",20.7134562345769,8.5,"<10","No","Yes","No","No","Yes","No","No","Yes","No"
+"176","HK1094",151.873504273504,"CD active",38.7013698630137,"Female","Current smoker","Hong Kong",19.9111111111111,5.2,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"177","HK1095",159.623303167421,"CD active",20.9753424657534,"Male","Never smoker","Hong Kong",19.53125,6.1,"<10","No","Yes","No","No","Yes","No","Yes","Yes","No"
+"178","HK1097",70.2,"CD inactive",38.7397260273973,"Male","Never smoker","Hong Kong",28.9905815622702,8,"<10","No","No","No","Yes","Yes","No","No","Yes","Yes"
+"179","HK1098",89.5518130152886,"CD inactive",29.9835616438356,"Female","Never smoker","Hong Kong",17.89802289282,5.7,"<10","Yes","No","Yes","No","Yes","No","No","Yes","No"
+"180","HK1099",3.20000000000002,"CD inactive",38.4547945205479,"Female","Never smoker","Hong Kong",23.5691987513007,4.8,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"181","HK1101",122.772095687192,"CD inactive",19.6328767123288,"Female","Never smoker","Hong Kong",18.5178040970642,4.9,"<10","Yes","No","No","Yes","Yes","No","No","Yes","No"
+"182","HK1102",164.897433404385,"CD active",32.2438356164384,"Male","Never smoker","Hong Kong",23.5812672176309,5.4,"<10","No","No","Yes","No","Yes","No","No","No","Yes"
+"183","HK1104",38,"CD inactive",24.0438356164384,"Male","Never smoker","Hong Kong",24.4082840236686,5.1,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"184","HK1105",NA,"CD active",21.6383561643836,"Male","Never smoker","Hong Kong",21.3224489795918,5.9,"<10","No","No","Yes","No","No","No","No","Yes","Yes"
+"185","HK1106",144.4,"CD inactive",47.1342465753425,"Male","Past/Ex smoker","Hong Kong",25.15589569161,7.2,"<10","No","Yes","No","No","No","Yes","No","No","No"
+"186","KM1001",117,"CD inactive",37.4849315068493,"Male","Current smoker","Mainland China",24.5351239669421,7.13,"<10","No","Yes","No","No","No","No","No","No","No"
+"187","KM1002",61.5320734628693,"CD inactive",22.358904109589,"Male","Never smoker","Mainland China",23.5294117647059,3.3,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"188","KM1003",114,"CD inactive",50.7671232876712,"Female","Never smoker","Mainland China",35.5385836143622,7.8,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"189","KM1004",175.681591700225,"CD active",60.1479452054795,"Female","Never smoker","Mainland China",17.7462289263531,7.5,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"190","KM1005",70.0203557510859,"CD inactive",27.4082191780822,"Female","Never smoker","Mainland China",18.5077660037741,6.55,"<10","No","Yes","No","No","No","No","No","No","No"
+"191","KM1006",96.3381601184637,"CD inactive",34.8520547945205,"Male","Never smoker","Mainland China",20.4782666138195,7,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"192","KM1007",56,"CD inactive",46.5095890410959,"Male","Current smoker","Mainland China",27.4756294930182,6.78,"<10","No","No","No","Yes","Yes","No","No","Yes","No"
+"193","KM1008",0,"CD inactive",63.4739726027397,"Female","Past/Ex smoker","Mainland China",23.3354661447552,8.76,"<10","No","Yes","No","No","No","No","No","No","No"
+"194","KM1009",162.338160118464,"CD active",22.0191780821918,"Male","Never smoker","Mainland China",20.4782666138195,7.6,"<10","No","No","No","No","No","No","No","No","No"
+"195","KM1010",122.71489040148,"CD inactive",40.4767123287671,"Female","Never smoker","Mainland China",19.1953027964922,7,"<10","No","Yes","No","No","No","No","No","No","No"
+"196","KM1011",233.031082552889,"CD active",21.2465753424658,"Female","Never smoker","Mainland China",16.6335348289991,9.3,">=10","No","Yes","No","No","No","No","No","No","No"
+"197","KM1012",206.898312620238,"CD active",52.5479452054795,"Male","Past/Ex smoker","Mainland China",18.3654729109275,4.5,">=10","No","Yes","No","No","No","No","No","No","No"
+"198","KM1013",95.1994234201254,"CD inactive",55.4054794520548,"Female","Never smoker","Mainland China",17.8465199286139,6.3,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"199","KM1014",NA,"CD active",38.2657534246575,"Female","Never smoker","Mainland China",19.5716812826979,8.3,">=10","No","Yes","No","No","No","No","No","No","No"
+"200","KM1015",81.9385463021827,"CD inactive",35.5534246575342,"Female","Never smoker","Mainland China",18.732782369146,9.5,">=10","No","Yes","No","No","No","No","No","No","No"
+"201","KM1016",101.030114609946,"CD inactive",30.3561643835616,"Male","Never smoker","Mainland China",18.7783446712018,6.65,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"202","KM1017",128.897149803138,"CD inactive",30.013698630137,"Male","Never smoker","Mainland China",20.7967298935064,8.3,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"203","KM1018",186.574014221073,"CD active",46.6109589041096,"Male","Never smoker","Mainland China",22.9,4.3,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"204","KM1019",213.358818736772,"CD active",37.4767123287671,"Male","Current smoker","Mainland China",18.0427010591734,6.3,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"205","KM1020",345.057711879002,"CD active",31.5835616438356,"Male","Past/Ex smoker","Mainland China",20.7612456747405,7.1,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"206","KM1021",30.9820338391767,"CD inactive",61.8794520547945,"Male","Past/Ex smoker","Mainland China",24.092970521542,6.7,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"207","KM1022",35,"CD inactive",66.2493150684931,"Female","Never smoker","Mainland China",25.8064516129032,8.8,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"208","KM1023",229.057711879002,"CD active",45.6383561643836,"Male","Past/Ex smoker","Mainland China",20.7612456747405,7.35,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"209","KM1024",20.2292369482925,"CD inactive",20.4054794520548,"Female","Never smoker","Mainland China",18.2563187147552,8.9,">=10","No","Yes","No","No","No","No","Yes","Yes","No"
+"210","KM1031",95.8862358890855,"CD inactive",19.7315068493151,"Male","Never smoker","Mainland China",19.0311418685121,7.2,"<10","No","Yes","No","No","No","No","No","No","No"
+"211","KM1032",369.8397307641,"CD active",36.9095890410959,"Male","Never smoker","Mainland China",17.7154195011338,18.53,">=10","No","Yes","No","No","No","Yes","Yes","No","No"
+"212","KM1033",11,"CD inactive",47.386301369863,"Female","Never smoker","Mainland China",27.34375,7.6,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"213","KM1034",91.7002097256925,"CD inactive",20.758904109589,"Male","Never smoker","Mainland China",20.619253650622,5.3,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"214","KM1035",312.952938213129,"CD active",19.6821917808219,"Female","Never smoker","Mainland China",17.6897888516692,9.98,">=10","No","Yes","No","No","No","No","Yes","Yes","Yes"
+"215","KM1036",126.067813302381,"CD inactive",19.813698630137,"Female","Never smoker","Mainland China",18.2898948331047,8.2,"<10","No","Yes","No","No","No","No","Yes","Yes","No"
+"216","KM1037",140.676289965179,"CD inactive",33.4027397260274,"Female","Never smoker","Mainland China",20.5761316872428,6.18,"<10","No","Yes","No","No","No","No","No","No","No"
+"217","KM1038",140.164663461539,"CD inactive",40.5178082191781,"Female","Never smoker","Mainland China",18.75,5.81,"<10","No","Yes","No","No","No","No","No","No","No"
+"218","KM1039",44.5320734628693,"CD inactive",31.4465753424658,"Male","Current smoker","Mainland China",23.5294117647059,7.26,">=10","No","Yes","No","No","No","No","No","No","No"
+"219","KM1040",103.624426909988,"CD inactive",57.5205479452055,"Male","Never smoker","Mainland China",23.2438016528926,8.78,">=10","No","Yes","No","No","No","No","No","Yes","No"
+"220","KM1041",208.034939234637,"CD active",37.1890410958904,"Female","Never smoker","Mainland China",22.3132784291452,10.03,">=10","No","No","Yes","No","No","No","No","Yes","No"
+"221","KM1042",122,"CD inactive",48.7095890410959,"Male","Never smoker","Mainland China",27.7767061455962,9.21,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"222","KM1043",310.497406219707,"CD active",47.5178082191781,"Female","Never smoker","Mainland China",16.0230732254446,16.47,">=10","No","No","No","Yes","No","No","Yes","Yes","No"
+"223","KM1044",123.162358718371,"CD inactive",51.1671232876712,"Male","Past/Ex smoker","Mainland China",26.346494034401,7.19,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"224","KM1045",67.9346668983356,"CD inactive",53.9945205479452,"Male","Past/Ex smoker","Mainland China",23.6614386154678,7.25,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"225","KM1046",187.63192740971,"CD active",36.8876712328767,"Female","Never smoker","Mainland China",18.645344042454,7.39,"<10","No","No","Yes","No","No","No","No","No","Yes"
+"226","KM1047",108.453808553547,"CD inactive",20.4849315068493,"Male","Never smoker","Mainland China",15.3697083096662,5.31,"<10","No","Yes","No","No","No","No","No","No","Yes"
+"227","KM1048",71.1386398778186,"CD inactive",58.2684931506849,"Male","Current smoker","Mainland China",20.9643605870021,10.08,"<10","No","Yes","No","No","No","No","No","No","No"
+"228","KM1049",124.846945009675,"CD inactive",19.1808219178082,"Male","Never smoker","Mainland China",18.3768251528618,6.39,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"229","KM1050",135.079324037307,"CD inactive",24.2575342465753,"Male","Never smoker","Mainland China",15.6734693877551,5.21,"<10","No","No","No","Yes","No","No","No","Yes","Yes"
+"230","KM1051",35,"CD inactive",40.7780821917808,"Female","Never smoker","Mainland China",26.171875,4.2,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"231","KM1052",273.208481358214,"CD active",19.1095890410959,"Female","Never smoker","Mainland China",16.5289256198347,10.16,">=10","No","Yes","No","No","No","No","Yes","Yes","No"
+"232","KM1053",80.5833502951353,"CD inactive",35.9095890410959,"Female","Never smoker","Mainland China",17.9930795847751,5.34,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"233","KM1054",190.693438914027,"CD active",21.4821917808219,"Female","Never smoker","Mainland China",17.96875,12.31,">=10","No","Yes","No","No","No","No","No","No","No"
+"234","KM1055",134,"CD inactive",46.1287671232877,"Female","Never smoker","Mainland China",24.4646016033724,7.33,">=10","No","Yes","No","No","No","Yes","No","No","No"
+"235","KM1056",40,"CD inactive",29.9753424657534,"Male","Past/Ex smoker","Mainland China",25.5593291551416,5.71,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"236","KM1057",141.886235889085,"CD inactive",22.9671232876712,"Male","Never smoker","Mainland China",19.0311418685121,4.55,"<10","No","Yes","No","No","No","No","No","Yes","Yes"
+"237","KM1058",118.308933552098,"CD inactive",55.5178082191781,"Female","Never smoker","Mainland China",22.0317256849864,6.73,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"238","KM1059",402.121779147425,"CD active",35.2630136986301,"Male","Past/Ex smoker","Mainland China",17.2110868084191,16.33,">=10","No","No","No","Yes","No","No","No","No","No"
+"239","KM1060",55.096500138517,"CD inactive",31.7452054794521,"Male","Never smoker","Mainland China",23.1836734693878,5.22,"<10","No","Yes","No","No","No","No","No","Yes","No"
+"240","KM1061",27.3311459669001,"CD inactive",21.972602739726,"Female","Never smoker","Mainland China",20.7008167413151,6.29,"<10","No","No","Yes","No","No","No","No","Yes","No"
+"241","AUS2008",NA,"Control",47.6876712328767,"Male","Never smoker","Australia",30.1591567380334,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"242","AUS2012",NA,"Control",28.6027397260274,"Male","Past/Ex smoker","Australia",25.3814685419093,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"243","AUS2015",NA,"Control",42,"Male","Past/Ex smoker","Australia",34.6020761245675,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"244","AUS2017",NA,"Control",43.2849315068493,"Female","Past/Ex smoker","Australia",24.3910588392529,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"245","AUS2023",NA,"Control",27.1397260273973,"Male","Never smoker","Australia",27.4405991735537,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"246","AUS2024",NA,"Control",55.2520547945205,"Male","Never smoker","Australia",24.4897959183673,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"247","AUS2027",NA,"Control",55.9150684931507,"Male","Never smoker","Australia",33.3049886621315,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"248","AUS2033",NA,"Control",63.0493150684932,"Female","Never smoker","Australia",32.3685498136927,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"249","AUS2044",NA,"Control",56.9095890410959,"Male","Past/Ex smoker","Australia",32.7636939791761,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"250","AUS2047",NA,"Control",33.7123287671233,"Male","Past/Ex smoker","Australia",28.0557057869118,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"251","AUS2058",NA,"Control",38.7369863013699,"Male","Past/Ex smoker","Australia",25.1240597983833,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"252","AUS2066",NA,"Control",45.3095890410959,"Female","Never smoker","Australia",32.1003401360544,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"253","AUS2067",NA,"Control",31.6383561643836,"Male","Past/Ex smoker","Australia",22.2040816326531,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"254","AUS2069",NA,"Control",49.6575342465753,"Male","Never smoker","Australia",24.8356464572681,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"255","AUS2070",NA,"Control",52.4986301369863,"Female","Never smoker","Australia",22.8928199791883,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"256","AUS2071",NA,"Control",42.854794520548,"Female","Never smoker","Australia",22.265625,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"257","AUS2073",NA,"Control",39.3424657534247,"Female","Never smoker","Australia",26.6666666666667,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"258","AUS2074",NA,"Control",38.9178082191781,"Male","Past/Ex smoker","Australia",30.8733120352224,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"259","AUS2080",NA,"Control",45.3698630136986,"Male","Past/Ex smoker","Australia",32.9287190082645,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"260","AUS2083",NA,"Control",54.2712328767123,"Female","Past/Ex smoker","Australia",24.7675659198293,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"261","AUS2091",NA,"Control",39.2164383561644,"Female","Never smoker","Australia",21.1552942020151,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"262","AUS2098",NA,"Control",33.0739726027397,"Female","Past/Ex smoker","Australia",47.3469387755102,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"263","AUS2100",NA,"Control",30.227397260274,"Female","Current smoker","Australia",22.0580511886839,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"264","AUS2101",NA,"Control",21.4493150684931,"Female","Past/Ex smoker","Australia",30.1194019147334,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"265","AUS2102",NA,"Control",60.0054794520548,"Male","Past/Ex smoker","Australia",38.0622837370242,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"266","AUS2113",NA,"Control",45.0219178082192,"Male","Past/Ex smoker","Australia",21.8470085203333,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"267","AUS2118",NA,"Control",46.4958904109589,"Male","Current smoker","Australia",25.8805706350208,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"268","AUS2120",NA,"Control",27.6109589041096,"Female","Never smoker","Australia",21.9671201814059,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"269","AUS2121",NA,"Control",19.7753424657534,"Female","Never smoker","Australia",32.051282051282,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"270","AUS2129",NA,"Control",66.2931506849315,"Female","Never smoker","Australia",25.3934311203181,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"271","AUS2131",NA,"Control",62.4958904109589,"Male","Never smoker","Australia",23.4106721610081,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"272","AUS3006",NA,"Control",58.2109589041096,"Female","Past/Ex smoker","Australia",33.0578512396694,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"273","AUS3007",NA,"Control",63.8328767123288,"Female","Never smoker","Australia",21.5138585105239,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"274","AUS3011",NA,"Control",34.4027397260274,"Female","Never smoker","Australia",24.21875,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"275","AUS3015",NA,"Control",49.6739726027397,"Female","Never smoker","Australia",24.3823729785937,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"276","AUS3016",NA,"Control",39.0438356164384,"Female","Never smoker","Australia",25.2173585757838,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"277","AUS3017",NA,"Control",47.3287671232877,"Male","Never smoker","Australia",23.8087970452672,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"278","AUS3024",NA,"Control",19.4027397260274,"Female","Never smoker","Australia",28.0403781445281,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"279","AUS3028",NA,"Control",53.1890410958904,"Female","Current smoker","Australia",24.3141239657425,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"280","AUS3029",NA,"Control",57.841095890411,"Male","Never smoker","Australia",21.7079233920381,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"281","AUS3032",NA,"Control",44.9232876712329,"Female","Past/Ex smoker","Australia",26.8923231381548,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"282","AUS3034",NA,"Control",51.7150684931507,"Female","Never smoker","Australia",25.0995015956112,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"283","AUS3046",NA,"Control",28.2849315068493,"Female","Never smoker","Australia",20.4294183624419,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"284","AUS3048",NA,"Control",63.9013698630137,"Female","Never smoker","Australia",25.0995015956112,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"285","AUS3049",NA,"Control",55.0739726027397,"Male","Never smoker","Australia",27.1604938271605,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"286","AUS3059",NA,"Control",57.4958904109589,"Female","Never smoker","Australia",27.968016063681,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"287","AUS3060",NA,"Control",57.8,"Male","Never smoker","Australia",29.320987654321,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"288","AUS3062",NA,"Control",60.986301369863,"Female","Never smoker","Australia",17.5925925925926,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"289","AUS3063",NA,"Control",49.5369863013699,"Male","Never smoker","Australia",23.7654320987654,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"290","AUS3064",NA,"Control",46.3643835616438,"Female","Never smoker","Australia",24.3374797187669,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"291","AUS3065",NA,"Control",57.5753424657534,"Female","Past/Ex smoker","Australia",26.8744961031981,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"292","AUS3066",NA,"Control",77.7150684931507,"Male","Never smoker","Australia",28.9632653061225,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"293","AUS3082",NA,"Control",33.8164383561644,"Male","Current smoker","Australia",26.1224489795918,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"294","AUS3089",NA,"Control",67.3178082191781,"Female","Never smoker","Australia",26.0374939913475,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"295","AUS3095",NA,"Control",56.9561643835616,"Female","Past/Ex smoker","Australia",37.6378486205729,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"296","AUS3097",NA,"Control",49.7205479452055,"Male","Never smoker","Australia",27.7447483154974,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"297","AUS3128",NA,"Control",55.5479452054795,"Male","Never smoker","Australia",30.3871052979257,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"298","AUS4004",NA,"Control",43.041095890411,"Female","Past/Ex smoker","Australia",22.7204383708109,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"299","AUS4005",NA,"Control",43.2054794520548,"Male","Never smoker","Australia",22.3863142771225,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"300","AUS4007",NA,"Control",74.3424657534247,"Male","Never smoker","Australia",27.5482093663912,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"301","AUS4010",NA,"Control",48.9808219178082,"Female","Never smoker","Australia",25.9695290858726,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"302","AUS4013",NA,"Control",58.1479452054795,"Female","Never smoker","Australia",37.0982552800735,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"303","AUS4017",NA,"Control",51.9041095890411,"Female","Never smoker","Australia",27.681660899654,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"304","AUS4018",NA,"Control",53.1123287671233,"Male","Never smoker","Australia",27.2222222222222,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"305","AUS4020",NA,"Control",70.5068493150685,"Female","Current smoker","Australia",26.986001011975,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"306","AUS4021",NA,"Control",28.4849315068493,"Female","Current smoker","Australia",35.9803055169802,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"307","AUS4025",NA,"Control",38.8684931506849,"Female","Never smoker","Australia",22.4813290656912,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"308","AUS4027",NA,"Control",54.6027397260274,"Female","Never smoker","Australia",20.2020202020202,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"309","AUS4028",NA,"Control",68.2356164383562,"Female","Past/Ex smoker","Australia",29.7619047619048,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"310","AUS4029",NA,"Control",32.7534246575342,"Female","Never smoker","Australia",31.6403681788297,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"311","AUS4030",NA,"Control",49.4630136986301,"Male","Past/Ex smoker","Australia",28.4005479635136,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"312","AUS4035",NA,"Control",65.2958904109589,"Male","Past/Ex smoker","Australia",38.3031695872833,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"313","AUS4037",NA,"Control",68.8931506849315,"Male","Past/Ex smoker","Australia",23.1481481481481,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"314","AUS4040",NA,"Control",46.1561643835616,"Female","Never smoker","Australia",24.8409800895781,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"315","AUS4041",NA,"Control",49.2465753424658,"Male","Past/Ex smoker","Australia",25.7725180802104,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"316","HK2001",NA,"Control",54.7698630136986,"Female","Never smoker","Hong Kong",20.7465794170137,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"317","HK2010",NA,"Control",42.3095890410959,"Female","Never smoker","Hong Kong",20.349609375,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"318","HK2011",NA,"Control",46.6027397260274,"Female","Current smoker","Hong Kong",23.4235574063058,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"319","HK2012",NA,"Control",64.2109589041096,"Male","Never smoker","Hong Kong",25.2363403300753,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"320","HK2014",NA,"Control",65.9643835616438,"Male","Never smoker","Hong Kong",25.0969529085873,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"321","HK2016",NA,"Control",66.0328767123288,"Male","Past/Ex smoker","Hong Kong",31.561671506123,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"322","HK2017",NA,"Control",61.4465753424658,"Male","Never smoker","Hong Kong",23.6712536295922,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"323","HK2018",NA,"Control",35.3506849315068,"Female","Current smoker","Hong Kong",21.875,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"324","HK2020",NA,"Control",46.0602739726027,"Male","Never smoker","Hong Kong",22.8373702422145,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"325","HK2025",NA,"Control",53.8493150684931,"Male","Never smoker","Hong Kong",22.8571428571429,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"326","HK2026",NA,"Control",38.5232876712329,"Female","Never smoker","Hong Kong",19.5629552549428,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"327","HK2028",NA,"Control",18.9972602739726,"Female","Never smoker","Hong Kong",16.6493236212279,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"328","HK2037",NA,"Control",48.2,"Female","Never smoker","Hong Kong",23.051754907793,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"329","HK2052",NA,"Control",59.6493150684932,"Female","Never smoker","Hong Kong",23.8914357580429,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"330","HK2056",NA,"Control",61.5753424657534,"Male","Never smoker","Hong Kong",23.8256055363322,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"331","HK2061",NA,"Control",28.758904109589,"Female","Never smoker","Hong Kong",21.3396080976916,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"332","HK2065",NA,"Control",51.6547945205479,"Female","Never smoker","Hong Kong",22.6264308012487,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"333","HK2068",NA,"Control",23.6794520547945,"Male","Current smoker","Hong Kong",23.356401384083,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"334","HK2078",NA,"Control",44.2438356164384,"Female","Never smoker","Hong Kong",22.9725343827336,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"335","HK2086",NA,"Control",54.5342465753425,"Female","Never smoker","Hong Kong",24.2424242424242,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"336","HK2095",NA,"Control",54.1315068493151,"Male","Never smoker","Hong Kong",19.7231833910035,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"337","HK3002",NA,"Control",50.1315068493151,"Female","Never smoker","Hong Kong",21.9916680019228,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"338","HK3007",NA,"Control",55.7013698630137,"Female","Never smoker","Hong Kong",14.84375,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"339","HK3009",NA,"Control",56.6931506849315,"Female","Past/Ex smoker","Hong Kong",24.7922865013774,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"340","HK3012",NA,"Control",58.4849315068493,"Female","Never smoker","Hong Kong",21.5676939058172,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"341","HK3013",NA,"Control",58.2821917808219,"Male","Never smoker","Hong Kong",26.2993572084481,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"342","HK3014",NA,"Control",66.1178082191781,"Female","Never smoker","Hong Kong",25.4890927977839,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"343","HK3015",NA,"Control",66.1315068493151,"Female","Never smoker","Hong Kong",26.5221791195817,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"344","HK3019",NA,"Control",58.6712328767123,"Male","Never smoker","Hong Kong",23.7,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"345","HK3027",NA,"Control",59.5835616438356,"Male","Past/Ex smoker","Hong Kong",24.4290657439446,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"346","HK3029",NA,"Control",52.841095890411,"Female","Never smoker","Hong Kong",25.8166302126286,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"347","HK3036",NA,"Control",63.8301369863014,"Male","Never smoker","Hong Kong",24.7922865013774,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"348","HK3039",NA,"Control",40.1260273972603,"Male","Never smoker","Hong Kong",26.643598615917,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"349","HK3048",NA,"Control",56.8054794520548,"Female","Never smoker","Hong Kong",20.536,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"350","HK3058",NA,"Control",62.745205479452,"Female","Never smoker","Hong Kong",23.4097996497074,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"351","HK3060",NA,"Control",56.6191780821918,"Male","Never smoker","Hong Kong",25.7308964549434,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"352","HK3088",NA,"Control",70.5534246575343,"Female","Never smoker","Hong Kong",19.9607434705977,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"353","HK3095",NA,"Control",54.8082191780822,"Female","Never smoker","Hong Kong",23.2679980276134,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"354","HK3101",NA,"Control",50.9506849315068,"Female","Never smoker","Hong Kong",30.6554329338238,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"355","HK3104",NA,"Control",52.0876712328767,"Male","Past/Ex smoker","Hong Kong",24.6156457893452,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"356","HK3105",NA,"Control",57.5287671232877,"Female","Never smoker","Hong Kong",22.3081499107674,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"357","HK4001",NA,"Control",48.4986301369863,"Female","Never smoker","Hong Kong",22.77318640955,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"358","HK4002",NA,"Control",46.9643835616438,"Female","Never smoker","Hong Kong",20.1333333333333,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"359","HK4003",NA,"Control",37.6,"Female","Never smoker","Hong Kong",19.723865877712,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"360","HK4004",NA,"Control",50.9753424657534,"Female","Never smoker","Hong Kong",20.7008167413151,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"361","HK4005",NA,"Control",57.4493150684931,"Female","Never smoker","Hong Kong",21.2866846084839,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"362","HK4006",NA,"Control",29.2547945205479,"Female","Never smoker","Hong Kong",18.8553590010406,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"363","HK4007",NA,"Control",28,"Female","Never smoker","Hong Kong",21.9502788655512,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"364","HK4008",NA,"Control",53.613698630137,"Female","Never smoker","Hong Kong",17.4502250692521,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"365","HK4009",NA,"Control",53.5424657534247,"Male","Never smoker","Hong Kong",32.5105728565936,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"366","HK4010",NA,"Control",53.1013698630137,"Male","Current smoker","Hong Kong",25.1666666666667,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"367","HK4011",NA,"Control",45.7424657534247,"Male","Never smoker","Hong Kong",23.8246895544193,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"368","HK4012",NA,"Control",55.6493150684932,"Male","Never smoker","Hong Kong",NA,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"369","HK4013",NA,"Control",48.8739726027397,"Female","Never smoker","Hong Kong",21.4308604390322,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"370","HK4014",NA,"Control",29.2904109589041,"Male","Never smoker","Hong Kong",22.8758995076379,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"371","HK4015",NA,"Control",47.4986301369863,"Female","Never smoker","Hong Kong",23.4952368747063,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"372","HK4016",NA,"Control",45.8493150684931,"Male","Never smoker","Hong Kong",23.7654320987654,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"373","HK4018",NA,"Control",50.145205479452,"Female","Never smoker","Hong Kong",25.7116620752984,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"374","HK4019",NA,"Control",50.6465753424658,"Male","Never smoker","Hong Kong",30.5995709285257,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"375","HK4020",NA,"Control",53.1397260273973,"Male","Past/Ex smoker","Hong Kong",29.0543052417856,NA,NA,NA,NA,NA,NA,"Yes",NA,NA,NA,NA
+"376","HK4021",NA,"Control",50.7150684931507,"Male","Never smoker","Hong Kong",26.4502588057064,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"377","HK4023",NA,"Control",48.4794520547945,"Female","Never smoker","Hong Kong",23.6340330075308,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"378","HK4024",NA,"Control",47.4684931506849,"Female","Current smoker","Hong Kong",25.6543723973825,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"379","KM2001",NA,"Control",35.4849315068493,"Female","Never smoker","Mainland China",23.1246703720232,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"380","KM2002",NA,"Control",20.9397260273973,"Female","Never smoker","Mainland China",23.1472551213302,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"381","KM2003",NA,"Control",53.1479452054795,"Male","Current smoker","Mainland China",22.038567493113,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"382","KM2005",NA,"Control",29.7890410958904,"Male","Never smoker","Mainland China",20.7612456747405,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"383","KM2006",NA,"Control",32.8109589041096,"Female","Never smoker","Mainland China",18.4265342092613,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"384","KM2007",NA,"Control",45.5095890410959,"Female","Never smoker","Mainland China",24.4646016033724,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"385","KM2014",NA,"Control",39.8301369863014,"Male","Past/Ex smoker","Mainland China",21.9713358572201,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"386","KM2015",NA,"Control",36.8493150684931,"Male","Current smoker","Mainland China",19.7231833910035,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"387","KM2016",NA,"Control",27,"Female","Never smoker","Mainland China",20.4294183624419,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"388","KM2017",NA,"Control",29.3287671232877,"Female","Never smoker","Mainland China",19.4734066290722,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"389","KM2018",NA,"Control",49.8191780821918,"Female","Never smoker","Mainland China",25,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"390","KM2020",NA,"Control",32.8958904109589,"Female","Never smoker","Mainland China",19.909972299169,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"391","KM2037",NA,"Control",33.5397260273973,"Male","Never smoker","Mainland China",22.038567493113,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"392","KM2038",NA,"Control",43.1260273972603,"Male","Current smoker","Mainland China",22.8571428571429,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"393","KM2039",NA,"Control",27.9698630136986,"Female","Never smoker","Mainland China",19.1000918273646,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"394","KM2041",NA,"Control",38.9123287671233,"Male","Current smoker","Mainland China",26.0374939913475,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"395","KM2043",NA,"Control",47.8191780821918,"Male","Past/Ex smoker","Mainland China",23.5294117647059,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"396","KM2044",NA,"Control",49.9205479452055,"Female","Never smoker","Mainland China",22.8623685413809,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"397","KM2045",NA,"Control",51.4712328767123,"Female","Never smoker","Mainland China",22.5827091723437,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"398","KM2046",NA,"Control",37.3260273972603,"Male","Never smoker","Mainland China",20.5150864789799,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"399","KM2051",NA,"Control",40.7753424657534,"Male","Current smoker","Mainland China",23.6614386154678,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"400","KM2052",NA,"Control",28.2246575342466,"Male","Current smoker","Mainland China",18.8267934998018,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"401","KM2055",NA,"Control",48.2547945205479,"Male","Current smoker","Mainland China",25.2595155709343,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"402","KM2056",NA,"Control",33.1561643835616,"Male","Never smoker","Mainland China",26.0374939913475,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"403","KM2060",NA,"Control",35.6027397260274,"Female","Never smoker","Mainland China",19.7210369679802,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"404","KM3008",NA,"Control",35.4383561643836,"Male","Current smoker","Mainland China",18.5911303407247,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"405","KM3009",NA,"Control",46.8739726027397,"Male","Past/Ex smoker","Mainland China",21.9135802469136,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"406","KM3010",NA,"Control",19.4219178082192,"Male","Never smoker","Mainland China",20.4491374182035,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"407","KM3011",NA,"Control",43.9287671232877,"Male","Current smoker","Mainland China",23.6614386154678,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"408","KM3012",NA,"Control",29.4547945205479,"Male","Never smoker","Mainland China",23.1206235962479,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"409","KM3013",NA,"Control",30.7890410958904,"Male","Past/Ex smoker","Mainland China",21.4691504822301,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"410","KM3019",NA,"Control",55.2904109589041,"Female","Never smoker","Mainland China",18.75,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"411","KM3021",NA,"Control",43.2904109589041,"Male","Current smoker","Mainland China",24.2122933884298,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"412","KM3022",NA,"Control",44.8794520547945,"Female","Never smoker","Mainland China",24.1415192507804,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"413","KM3023",NA,"Control",23.027397260274,"Male","Never smoker","Mainland China",19.6071566121634,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"414","KM3024",NA,"Control",31.9232876712329,"Female","Never smoker","Mainland China",19.8140527358634,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"415","KM3031",NA,"Control",44.3835616438356,"Male","Current smoker","Mainland China",26.4462809917355,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"416","KM3032",NA,"Control",40.7232876712329,"Male","Current smoker","Mainland China",20.9571711629325,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"417","KM3033",NA,"Control",30.1561643835616,"Male","Current smoker","Mainland China",21.4691504822301,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"418","KM3034",NA,"Control",44.7643835616438,"Male","Current smoker","Mainland China",27.681660899654,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"419","KM3035",NA,"Control",46.3260273972603,"Male","Current smoker","Mainland China",25.2173585757838,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"420","KM3036",NA,"Control",43.9397260273973,"Male","Current smoker","Mainland China",28.0102237316621,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"421","KM3040",NA,"Control",27.4630136986301,"Female","Never smoker","Mainland China",17.8465199286139,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"422","KM3042",NA,"Control",20.2164383561644,"Female","Never smoker","Mainland China",18.3654729109275,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"423","KM3047",NA,"Control",45.8438356164384,"Male","Never smoker","Mainland China",23.5294117647059,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"424","KM3048",NA,"Control",32.2547945205479,"Male","Current smoker","Mainland China",22.2040816326531,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"425","KM3049",NA,"Control",42.3534246575342,"Female","Never smoker","Mainland China",20.9571711629325,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"426","KM3050",NA,"Control",45.3013698630137,"Female","Never smoker","Mainland China",24.4646016033724,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"427","KM3052",NA,"Control",57.4821917808219,"Male","Current smoker","Mainland China",20.1950922115531,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"428","KM3054",NA,"Control",27.0904109589041,"Male","Current smoker","Mainland China",19.1511918197052,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"429","KM3057",NA,"Control",46.3671232876712,"Female","Never smoker","Mainland China",22.8623685413809,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"430","KM3058",NA,"Control",48.5260273972603,"Female","Never smoker","Mainland China",20.6851502395123,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"431","KM3059",NA,"Control",59.2931506849315,"Male","Never smoker","Mainland China",21.0961905148282,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"432","KM3061",NA,"Control",45.041095890411,"Male","Past/Ex smoker","Mainland China",24.4192790207869,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"433","KM4001",NA,"Control",48.8054794520548,"Male","Past/Ex smoker","Mainland China",23.1206235962479,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"434","KM4002",NA,"Control",34.3315068493151,"Male","Current smoker","Mainland China",22.3093564088697,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"435","KM4003",NA,"Control",39.0520547945206,"Male","Never smoker","Mainland China",23.7654320987654,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"436","KM4004",NA,"Control",34.5616438356164,"Female","Never smoker","Mainland China",24.9107674003569,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"437","KM4005",NA,"Control",41.0657534246575,"Female","Never smoker","Mainland China",18.6709343087944,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"438","KM4006",NA,"Control",33.145205479452,"Female","Never smoker","Mainland China",21.7994451050337,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"439","KM4007",NA,"Control",31.5315068493151,"Male","Never smoker","Mainland China",21.7994451050337,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"440","KM4008",NA,"Control",52.9972602739726,"Female","Never smoker","Mainland China",21.484375,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"441","KM4009",NA,"Control",50.5013698630137,"Male","Current smoker","Mainland China",24.4351866688031,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"442","KM4010",NA,"Control",35.0739726027397,"Male","Current smoker","Mainland China",20.7475501931118,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"443","KM4011",NA,"Control",58.3698630136986,"Male","Current smoker","Mainland China",24.9770431588613,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"444","KM4012",NA,"Control",43.9095890410959,"Female","Never smoker","Mainland China",24.4646016033724,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"445","KM4013",NA,"Control",52.2904109589041,"Male","Current smoker","Mainland China",22.8571428571429,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"446","KM4014",NA,"Control",51.0931506849315,"Female","Never smoker","Mainland China",21.484375,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"447","KM4015",NA,"Control",49.6602739726027,"Female","Never smoker","Mainland China",24.8357634994392,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"448","KM4016",NA,"Control",44.6356164383562,"Male","Never smoker","Mainland China",21.2244897959184,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"449","KM4017",NA,"Control",40.0465753424658,"Male","Current smoker","Mainland China",22.0931700542861,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"450","KM4018",NA,"Control",45.1835616438356,"Female","Never smoker","Mainland China",20.7008167413151,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"451","KM4020",NA,"Control",45.8301369863014,"Female","Never smoker","Mainland China",26.0374939913475,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"452","KM4021",NA,"Control",28.2739726027397,"Male","Current smoker","Mainland China",16.7871900826446,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"453","KM4022",NA,"Control",40.2684931506849,"Female","Never smoker","Mainland China",21.7192501143118,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"454","KM4023",NA,"Control",24.1698630136986,"Male","Never smoker","Mainland China",20.0474456213038,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"455","KM4024",NA,"Control",40.0849315068493,"Female","Never smoker","Mainland China",23.7332384003797,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"456","KM4026",NA,"Control",NA,"Female",NA,"Mainland China",26.0374939913475,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"457","KM4031",NA,"Control",46.3917808219178,"Male","Current smoker","Mainland China",18.0697278911565,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"458","KM4032",NA,"Control",35.427397260274,"Male","Past/Ex smoker","Mainland China",23.0545624644993,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"459","KM4033",NA,"Control",27.627397260274,"Male","Current smoker","Mainland China",18.2857142857143,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"460","KM4034",NA,"Control",42.8438356164384,"Male","Current smoker","Mainland China",23.0300453514739,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"461","KM4035",NA,"Control",27.5643835616438,"Male","Never smoker","Mainland China",22.1297397278372,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"462","KM4036",NA,"Control",40.5506849315069,"Female","Never smoker","Mainland China",17.258382642998,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"463","KM4037",NA,"Control",54.1917808219178,"Male","Past/Ex smoker","Mainland China",22.4087867693473,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"464","KM4038",NA,"Control",44.4219178082192,"Female","Never smoker","Mainland China",21.7554685336814,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"465","KM4039",NA,"Control",45.2904109589041,"Male","Current smoker","Mainland China",22.530612244898,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"466","KM4040",NA,"Control",32.358904109589,"Male","Never smoker","Mainland China",21.5138585105239,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"467","KM4041",NA,"Control",33.4246575342466,"Female",NA,"Mainland China",19.5716812826979,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"468","KM4042",NA,"Control",24.8575342465753,"Male",NA,"Mainland China",19.9183673469388,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"469","KM4043",NA,"Control",51.6164383561644,"Male",NA,"Mainland China",23.2438016528926,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"470","KM4044",NA,"Control",30.4438356164384,"Female",NA,"Mainland China",18.2898948331047,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"471","KM4045",NA,"Control",44.5397260273973,"Male",NA,"Mainland China",22.4913494809689,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"472","KM4046",NA,"Control",46.0575342465753,"Male",NA,"Mainland China",26.6727632982777,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"473","KM4047",NA,"Control",57.5342465753425,"Female",NA,"Mainland China",30.4438391283448,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"474","KM4048",NA,"Control",36.9616438356164,"Female",NA,"Mainland China",21.3382106386222,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"475","KM4049",NA,"Control",42.3561643835616,"Female",NA,"Mainland China",18.9865907203038,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"476","KM4050",NA,"Control",36.3342465753425,"Male",NA,"Mainland China",21.7180660897457,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"477","KM4051",NA,"Control",51.3753424657534,"Female",NA,"Mainland China",25.1531502292182,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"478","KM4052",NA,"Control",53.7534246575342,"Female",NA,"Mainland China",22.038567493113,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA
+"479","KM4053",NA,"Control",59.9424657534247,"Female",NA,"Mainland China",24.3046178773967,NA,NA,NA,NA,NA,NA,"No",NA,NA,NA,NA

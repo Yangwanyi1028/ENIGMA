@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>body{background-color:white;}</style>
+<style type="text/css">
+.Rtable1 table, table.Rtable1 {
+font-family: "Arial", Arial, sans-serif;
+font-size: 10pt;
+border-collapse: collapse;
+padding: 0px;
+margin: 0px;
+
+}
+.Rtable1 td {
+white-space:nowrap;
+}
+.Rtable1 th, .Rtable1 td {
+border: 0;
+text-align: center;
+padding: 0.5ex 1.5ex;
+margin: 0px;
+}
+.Rtable1 thead>tr:first-child>th {
+border-top: 2pt solid black;
+}
+.Rtable1 thead>tr:last-child>th {
+border-bottom: 1pt solid black;
+}
+.Rtable1 tbody>tr:last-child>td {
+border-bottom: 2pt solid black;
+}
+.Rtable1 th.grouplabel {
+padding-left: 0;
+padding-right: 0;
+}
+.Rtable1 th.grouplabel>div {
+margin-left: 1.5ex;
+margin-right: 1.5ex;
+border-bottom: 1pt solid black;
+}
+.Rtable1 th.grouplabel:last-child>div {
+margin-right: 0;
+}
+.Rtable1 .rowlabel {
+text-align: left;
+padding-left: 2.5ex;
+}
+.Rtable1 .firstrow.rowlabel {
+padding-left: 0.5ex;
+font-weight: bold;
+}
+
+.Rtable1-zebra tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+table.Rtable1-times {
+font-family: "Times New Roman", Times, serif;
+}
+
+.Rtable1-shade th {
+background-color: #ccc;
+}
+
+.Rtable1-grid th, .Rtable1-grid td {
+border-left: 1pt solid black;
+border-right: 1pt solid black;
+}
+.Rtable1-grid thead>tr:first-child>th {
+border-top: 1pt solid black;
+}
+.Rtable1-grid thead>tr:last-child>th {
+border-bottom: 1pt solid black;
+}
+.Rtable1-grid tbody>tr:last-child>td {
+border-bottom: 1pt solid black;
+}
+.Rtable1-grid .firstrow, .Rtable1-grid .firstrow ~ td {
+border-top: 1pt solid black;
+}
+.Rtable1-grid th.grouplabel>div {
+margin-left: 0;
+margin-right: 0;
+border-bottom: 0;
+}
+
+.Rtable1-center td.rowlabel, .Rtable1-center td.firstrow.rowlabel {
+font-weight: bold;
+text-align: center;
+padding: 0.5ex 1.5ex;
+}
+
+.Rtable1 .Rtable1-footnote {
+font-size: smaller;
+padding: 0px;
+margin: 0px;
+text-align: left;
+white-space: normal;
+}
+</style>
+
+</head>
+<body>
+<div class="Rtable1"><table class="Rtable1">
+<thead>
+<tr>
+<th class="grouplabel"></th>
+<th colspan="3" class="grouplabel"><div>Australia</div></th>
+<th colspan="3" class="grouplabel"><div>Hong Kong</div></th>
+<th colspan="3" class="grouplabel"><div>Mainlan China</div></th>
+</tr>
+<tr>
+<th class="rowlabel firstrow lastrow"></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD active<br><span class="stratn">(N=15)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD inactive<br><span class="stratn">(N=80)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">Control<br><span class="stratn">(N=75)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD active<br><span class="stratn">(N=19)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD inactive<br><span class="stratn">(N=71)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">Control<br><span class="stratn">(N=63)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD active<br><span class="stratn">(N=17)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">CD inactive<br><span class="stratn">(N=38)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">Control<br><span class="stratn">(N=101)</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="rowlabel firstrow">Age</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>43.8 (11.9)</td>
+<td>37.5 (14.0)</td>
+<td>48.4 (13.2)</td>
+<td>40.2 (16.2)</td>
+<td>38.5 (13.2)</td>
+<td>50.8 (10.9)</td>
+<td>35.9 (12.2)</td>
+<td>38.3 (14.4)</td>
+<td>40.3 (9.62)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>47.2 [21.5, 61.7]</td>
+<td>33.8 [18.1, 78.2]</td>
+<td>49.5 [19.4, 77.7]</td>
+<td>42.7 [0.271, 65.0]</td>
+<td>36.3 [19.6, 72.9]</td>
+<td>52.8 [19.0, 70.6]</td>
+<td>36.9 [19.1, 60.1]</td>
+<td>35.7 [19.2, 66.2]</td>
+<td>40.9 [19.4, 59.9]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">1 (1.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Gender</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Female</td>
+<td>5 (33.3%)</td>
+<td>43 (53.8%)</td>
+<td>42 (56.0%)</td>
+<td>7 (36.8%)</td>
+<td>25 (35.2%)</td>
+<td>38 (60.3%)</td>
+<td>9 (52.9%)</td>
+<td>17 (44.7%)</td>
+<td>43 (42.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Male</td>
+<td class="lastrow">10 (66.7%)</td>
+<td class="lastrow">37 (46.3%)</td>
+<td class="lastrow">33 (44.0%)</td>
+<td class="lastrow">12 (63.2%)</td>
+<td class="lastrow">46 (64.8%)</td>
+<td class="lastrow">25 (39.7%)</td>
+<td class="lastrow">8 (47.1%)</td>
+<td class="lastrow">21 (55.3%)</td>
+<td class="lastrow">58 (57.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Smoke</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Current smoker</td>
+<td>3 (20.0%)</td>
+<td>2 (2.5%)</td>
+<td>6 (8.0%)</td>
+<td>3 (15.8%)</td>
+<td>2 (2.8%)</td>
+<td>5 (7.9%)</td>
+<td>1 (5.9%)</td>
+<td>4 (10.5%)</td>
+<td>30 (29.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Never smoker</td>
+<td>9 (60.0%)</td>
+<td>49 (61.3%)</td>
+<td>45 (60.0%)</td>
+<td>15 (78.9%)</td>
+<td>53 (74.6%)</td>
+<td>53 (84.1%)</td>
+<td>12 (70.6%)</td>
+<td>29 (76.3%)</td>
+<td>49 (48.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Past/Ex smoker</td>
+<td>3 (20.0%)</td>
+<td>29 (36.3%)</td>
+<td>24 (32.0%)</td>
+<td>1 (5.3%)</td>
+<td>16 (22.5%)</td>
+<td>5 (7.9%)</td>
+<td>4 (23.5%)</td>
+<td>5 (13.2%)</td>
+<td>8 (7.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">14 (13.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">CDAI</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>192 (30.9)</td>
+<td>54.1 (37.3)</td>
+<td>NA (NA)</td>
+<td>201 (41.5)</td>
+<td>68.5 (36.9)</td>
+<td>NA (NA)</td>
+<td>250 (75.3)</td>
+<td>86.0 (41.3)</td>
+<td>NA (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>180 [156, 233]</td>
+<td>46.0 [0, 130]</td>
+<td>NA [NA, NA]</td>
+<td>201 [152, 289]</td>
+<td>66.0 [0, 145]</td>
+<td>NA [NA, NA]</td>
+<td>221 [162, 402]</td>
+<td>95.5 [0, 142]</td>
+<td>NA [NA, NA]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">2 (13.3%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">5 (26.3%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">1 (5.9%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">BMI</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>23.3 (4.16)</td>
+<td>25.6 (5.12)</td>
+<td>27.2 (5.10)</td>
+<td>21.3 (3.30)</td>
+<td>22.9 (3.68)</td>
+<td>23.4 (3.30)</td>
+<td>18.8 (2.02)</td>
+<td>22.0 (4.05)</td>
+<td>22.1 (2.56)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>23.2 [16.3, 30.5]</td>
+<td>24.6 [17.2, 43.0]</td>
+<td>26.0 [17.6, 47.3]</td>
+<td>20.3 [15.1, 28.4]</td>
+<td>22.6 [15.2, 32.6]</td>
+<td>23.4 [14.8, 32.5]</td>
+<td>18.0 [16.0, 22.9]</td>
+<td>20.9 [15.4, 35.5]</td>
+<td>22.0 [16.8, 30.4]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">1 (1.6%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">White Blood Cell Count</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>7.90 (5.08)</td>
+<td>6.59 (1.84)</td>
+<td>NA (NA)</td>
+<td>6.80 (2.49)</td>
+<td>6.44 (1.87)</td>
+<td>NA (NA)</td>
+<td>9.61 (4.12)</td>
+<td>6.89 (1.52)</td>
+<td>NA (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>6.25 [4.20, 23.8]</td>
+<td>6.40 [3.80, 13.7]</td>
+<td>NA [NA, NA]</td>
+<td>6.10 [4.10, 14.2]</td>
+<td>5.90 [3.40, 13.9]</td>
+<td>NA [NA, NA]</td>
+<td>8.30 [4.30, 18.5]</td>
+<td>6.89 [3.30, 10.1]</td>
+<td>NA [NA, NA]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">1 (6.7%)</td>
+<td class="lastrow">6 (7.5%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">C-Reactive Protein</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">&lt;10</td>
+<td>13 (86.7%)</td>
+<td>69 (86.3%)</td>
+<td>0 (0%)</td>
+<td>16 (84.2%)</td>
+<td>65 (91.5%)</td>
+<td>0 (0%)</td>
+<td>6 (35.3%)</td>
+<td>29 (76.3%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">&gt;=10</td>
+<td>1 (6.7%)</td>
+<td>8 (10.0%)</td>
+<td>0 (0%)</td>
+<td>3 (15.8%)</td>
+<td>6 (8.5%)</td>
+<td>0 (0%)</td>
+<td>11 (64.7%)</td>
+<td>9 (23.7%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">1 (6.7%)</td>
+<td class="lastrow">3 (3.8%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">History of bowel resection\surgery</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>7 (46.7%)</td>
+<td>55 (68.8%)</td>
+<td>0 (0%)</td>
+<td>17 (89.5%)</td>
+<td>59 (83.1%)</td>
+<td>0 (0%)</td>
+<td>17 (100%)</td>
+<td>38 (100%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>8 (53.3%)</td>
+<td>25 (31.3%)</td>
+<td>0 (0%)</td>
+<td>2 (10.5%)</td>
+<td>12 (16.9%)</td>
+<td>0 (0%)</td>
+<td>0 (0%)</td>
+<td>0 (0%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Inflammatory</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>8 (53.3%)</td>
+<td>36 (45.0%)</td>
+<td>0 (0%)</td>
+<td>14 (73.7%)</td>
+<td>43 (60.6%)</td>
+<td>0 (0%)</td>
+<td>5 (29.4%)</td>
+<td>3 (7.9%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>7 (46.7%)</td>
+<td>44 (55.0%)</td>
+<td>0 (0%)</td>
+<td>5 (26.3%)</td>
+<td>28 (39.4%)</td>
+<td>0 (0%)</td>
+<td>12 (70.6%)</td>
+<td>35 (92.1%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Stricturing</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>12 (80.0%)</td>
+<td>55 (68.8%)</td>
+<td>0 (0%)</td>
+<td>14 (73.7%)</td>
+<td>57 (80.3%)</td>
+<td>0 (0%)</td>
+<td>15 (88.2%)</td>
+<td>37 (97.4%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>3 (20.0%)</td>
+<td>25 (31.3%)</td>
+<td>0 (0%)</td>
+<td>5 (26.3%)</td>
+<td>14 (19.7%)</td>
+<td>0 (0%)</td>
+<td>2 (11.8%)</td>
+<td>1 (2.6%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Penetrating</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>7 (46.7%)</td>
+<td>66 (82.5%)</td>
+<td>0 (0%)</td>
+<td>10 (52.6%)</td>
+<td>42 (59.2%)</td>
+<td>0 (0%)</td>
+<td>15 (88.2%)</td>
+<td>36 (94.7%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>8 (53.3%)</td>
+<td>14 (17.5%)</td>
+<td>0 (0%)</td>
+<td>9 (47.4%)</td>
+<td>29 (40.8%)</td>
+<td>0 (0%)</td>
+<td>2 (11.8%)</td>
+<td>2 (5.3%)</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">75 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">63 (100%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">Any medications?</td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>4 (26.7%)</td>
+<td>43 (53.8%)</td>
+<td>35 (46.7%)</td>
+<td>7 (36.8%)</td>
+<td>37 (52.1%)</td>
+<td>52 (82.5%)</td>
+<td>17 (100%)</td>
+<td>37 (97.4%)</td>
+<td>101 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Yes</td>
+<td class="lastrow">11 (73.3%)</td>
+<td class="lastrow">37 (46.3%)</td>
+<td class="lastrow">40 (53.3%)</td>
+<td class="lastrow">12 (63.2%)</td>
+<td class="lastrow">34 (47.9%)</td>
+<td class="lastrow">11 (17.5%)</td>
+<td class="lastrow">0 (0%)</td>
+<td class="lastrow">1 (2.6%)</td>
+<td class="lastrow">0 (0%)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

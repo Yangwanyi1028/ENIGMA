@@ -1,0 +1,69 @@
+pathway_name,Superclass2,pathway,group
+ASPASN_PWY,Amino Acid Biosynthesis,superpathway of L-aspartate and L-asparagine biosynthesis,CD-enriched
+FASYN_ELONG_PWY,Fatty Acid and Lipid Biosynthesis,fatty acid elongation -- saturated,CD-enriched
+GLYCOLYSIS_E_D,Superpathways,superpathway of glycolysis and Entner-Doudoroff,CD-enriched
+HOMOSER_METSYN_PWY,Amino Acid Biosynthesis,L-methionine biosynthesis I,CD-enriched
+MET_SAM_PWY,Superpathways,superpathway of S-adenosyl-L-methionine biosynthesis,CD-enriched
+METSYN_PWY,Amino Acid Biosynthesis,L-homoserine and L-methionine biosynthesis,CD-enriched
+P161_PWY,Carboxylate Degradation,acetylene degradation,CD-enriched
+P4_PWY,Amino Acid Biosynthesis,"superpathway of L-lysine, L-threonine and L-methionine biosynthesis I",CD-enriched
+P461_PWY,Carboxylate Degradation,"hexitol fermentation to lactate, formate, ethanol and acetate",CD-enriched
+PENTOSE_P_PWY,Pentose Phosphate Pathways,pentose phosphate pathway,CD-enriched
+POLYISOPRENSYN_PWY,Polyprenyl Biosynthesis,polyisoprenoid biosynthesis (E. coli),CD-enriched
+PWY_5347,Amino Acid Biosynthesis,superpathway of L-methionine biosynthesis (transsulfuration),CD-enriched
+PWY_5838,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-8 biosynthesis I,CD-enriched
+PWY_5840,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-7 biosynthesis,CD-enriched
+PWY_5850,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-6 biosynthesis I,CD-enriched
+PWY_5861,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of demethylmenaquinol-8 biosynthesis,CD-enriched
+PWY_5897,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-11 biosynthesis,CD-enriched
+PWY_5898,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-12 biosynthesis,CD-enriched
+PWY_5899,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of menaquinol-13 biosynthesis,CD-enriched
+PWY_5918,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathay of heme biosynthesis from glutamate,CD-enriched
+PWY_5989,Fatty Acid and Lipid Biosynthesis,stearate biosynthesis II (bacteria and plants),CD-enriched
+PWY_6147,"Cofactor, Carrier, and Vitamin Biosynthesis",6-hydroxymethyl-dihydropterin diphosphate biosynthesis I,CD-enriched
+PWY_6282,Fatty Acid and Lipid Biosynthesis,palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate),CD-enriched
+PWY_6285,Fatty Acid and Lipid Biosynthesis,superpathway of fatty acids biosynthesis (E. coli),CD-enriched
+PWY_6519,Other Biosynthesis,8-amino-7-oxononanoate biosynthesis I,CD-enriched
+PWY_6961,Carboxylate Degradation,"L-ascorbate degradation II (bacterial, aerobic)",CD-enriched
+PWY_7663,Fatty Acid and Lipid Biosynthesis,gondoate biosynthesis (anaerobic),CD-enriched
+PWY_7664,Fatty Acid and Lipid Biosynthesis,oleate biosynthesis IV (anaerobic),CD-enriched
+PWY0_1297,Nucleoside and Nucleotide Degradation,superpathway of purine deoxyribonucleosides degradation,CD-enriched
+PWY0_1298,Nucleoside and Nucleotide Degradation,superpathway of pyrimidine deoxyribonucleosides degradation,CD-enriched
+PWY0_1477,Amine and Polyamine Degradation,ethanolamine utilization,CD-enriched
+PWY0_301,Carboxylate Degradation,"L-ascorbate degradation I (bacterial, anaerobic)",CD-enriched
+PWY0_781,Superpathways,aspartate superpathway,CD-enriched
+PWY0_845,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of pyridoxal 5'-phosphate biosynthesis and salvage,CD-enriched
+PWY0_862,Fatty Acid and Lipid Biosynthesis,(5Z)-dodec-5-enoate biosynthesis,CD-enriched
+PWY4FS_7,Fatty Acid and Lipid Biosynthesis,phosphatidylglycerol biosynthesis I (plastidic),CD-enriched
+PWY4FS_8,Fatty Acid and Lipid Biosynthesis,phosphatidylglycerol biosynthesis II (non-plastidic),CD-enriched
+PWY66_409,Nucleoside and Nucleotide Biosynthesis,superpathway of purine nucleotide salvage,CD-enriched
+PYRIDNUCSAL_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",NAD salvage pathway I,CD-enriched
+PYRIDOXSYN_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",pyridoxal 5'-phosphate biosynthesis I,CD-enriched
+ANAGLYCOLYSIS_PWY,Glycolysis,glycolysis III (from glucose),CD-depleted
+ARGSYNBSUB_PWY,Amino Acid Biosynthesis,L-arginine biosynthesis II (acetyl cycle),CD-depleted
+ARO_PWY,Aromatic Compound Biosynthesis,chorismate biosynthesis I,CD-depleted
+COA_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",coenzyme A biosynthesis I,CD-depleted
+COA_PWY_1,"Cofactor, Carrier, and Vitamin Biosynthesis",coenzyme A biosynthesis II (mammalian),CD-depleted
+COMPLETE_ARO_PWY,Amino Acid Biosynthesis,superpathway of aromatic amino acid biosynthesis,CD-depleted
+DTDPRHAMSYN_PWY,Carbohydrate Biosynthesis,dTDP-L-rhamnose biosynthesis I,CD-depleted
+GLYCOGENSYNTH_PWY,Carbohydrate Biosynthesis,glycogen biosynthesis I (from ADP-D-Glucose),CD-depleted
+HISTSYN_PWY,Amino Acid Biosynthesis,L-histidine biosynthesis,CD-depleted
+NONMEVIPP_PWY,Secondary Metabolite Biosynthesis,methylerythritol phosphate pathway I,CD-depleted
+PANTO_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",phosphopantothenate biosynthesis I,CD-depleted
+PANTOSYN_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",pantothenate and coenzyme A biosynthesis I,CD-depleted
+PEPTIDOGLYCANSYN_PWY,Cell Structure Biosynthesis,peptidoglycan biosynthesis I (meso-diaminopimelate containing),CD-depleted
+PWY_3841,"Cofactor, Carrier, and Vitamin Biosynthesis",folate transformations II,CD-depleted
+PWY_5097,Amino Acid Biosynthesis,L-lysine biosynthesis VI,CD-depleted
+PWY_5686,Nucleoside and Nucleotide Biosynthesis,UMP biosynthesis,CD-depleted
+PWY_6151,"Cofactor, Carrier, and Vitamin Biosynthesis",S-adenosyl-L-methionine cycle I,CD-depleted
+PWY_6163,Aromatic Compound Biosynthesis,chorismate biosynthesis from 3-dehydroquinate,CD-depleted
+PWY_6385,Cell Structure Biosynthesis,peptidoglycan biosynthesis III (mycobacteria),CD-depleted
+PWY_6386,Cell Structure Biosynthesis,UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing),CD-depleted
+PWY_6387,Cell Structure Biosynthesis,UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing),CD-depleted
+PWY_6470,Cell Structure Biosynthesis,peptidoglycan biosynthesis V (&beta;-lactam resistance),CD-depleted
+PWY_6700,Nucleic Acid Processing,queuosine biosynthesis,CD-depleted
+PWY_7238,Carbohydrate Biosynthesis,Sucrose biosynthesis,CD-depleted
+PWY_7790,Nucleoside and Nucleotide Biosynthesis,UMP biosynthesis II,CD-depleted
+PWY_7791,Nucleoside and Nucleotide Biosynthesis,UMP biosynthesis III,CD-depleted
+PWY_7851,"Cofactor, Carrier, and Vitamin Biosynthesis",coenzyme A biosynthesis II (eukaryotic),CD-depleted
+THISYNARA_PWY,"Cofactor, Carrier, and Vitamin Biosynthesis",superpathway of thiamin diphosphate biosynthesis III (eukaryotes),CD-depleted

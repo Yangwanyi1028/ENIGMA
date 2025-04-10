@@ -1,0 +1,45 @@
+2025-03-18 23:00:18.983959 INFO::Writing function arguments to log file
+2025-03-18 23:00:18.985126 DEBUG::Function arguments
+2025-03-18 23:00:18.985493 DEBUG::Output folder: output_Region_gene_AUS
+2025-03-18 23:00:18.985824 DEBUG::Min Abundance: 0.000000
+2025-03-18 23:00:18.986138 DEBUG::Min Prevalence: 0.000000
+2025-03-18 23:00:18.98662 DEBUG::Normalization: NONE
+2025-03-18 23:00:18.987082 DEBUG::Transform: LOG
+2025-03-18 23:00:18.987448 DEBUG::Analysis method: LM
+2025-03-18 23:00:18.987785 DEBUG::Max significance: 0.250000
+2025-03-18 23:00:18.988205 DEBUG::Random effects:
+2025-03-18 23:00:18.988792 DEBUG::Fixed effects: Region
+2025-03-18 23:00:18.989139 DEBUG::Correction method: BH
+2025-03-18 23:00:18.989446 DEBUG::Standardize: FALSE
+2025-03-18 23:00:18.989736 DEBUG::Cores: 4
+2025-03-18 23:00:18.990014 INFO::Verifying options selected are valid
+2025-03-18 23:00:18.990936 INFO::Determining format of input files
+2025-03-18 23:00:18.991779 INFO::Input format is data samples as rows and metadata samples as rows
+2025-03-18 23:00:18.992786 DEBUG::The following samples were found to have features but no metadata. They will be removed. SCD68,SCD69,SCD70,SCD73,SCD72,SCD85,SCD106,SCD88,SCD90,SCD108,SCD87,SCD89,SCD93,SCD139,SCD109,SCD129,SCD110,SCD97,SCD121,SCD96,SCD99,SCD112,SCD100,SCD122,SCD101,SCD130,SCD104,SCD102,SCD105,SCD113,SCD155,SCD131,SCD114,SCD115,SCD116,SCD111,SCD146,SCD147,SCD142,SCD117,SCD132,SCD124,SCD148,SCD125,SCD118,SCD149,SCD156,SCD150,SCD157,SCD127,SCD134,SCD128,SCD135,SCD144,SCD153,SN23,SN19,SN24,SN25,SN26,SN27,SN28,SN21,SN22,SN29,SN36,SN37,SN38,SN39
+2025-03-18 23:00:18.993128 DEBUG::The following samples were found to have metadata but no features. They will be removed. HK1003,HK1004,HK1005,HK1006,HK1008,HK1021,HK1022,HK1024,HK1030,HK1031,HK1032,HK1035,HK1038,HK1041,HK1043,HK1044,HK1045,HK1047,HK1049,HK1050,HK1052,HK1053,HK1054,HK1055,HK1056,HK1057,HK1059,HK1061,HK1063,HK1064,HK1066,HK1067,HK1069,HK1070,HK1071,HK1072,HK1073,HK1074,HK1077,HK1079,HK1081,HK1083,HK1084,HK1085,HK1087,HK1089,HK1090,HK1092,HK1093,HK1094,HK1097,HK1098,HK1099,HK1102,HK1106,HK4001,HK4002,HK4004,HK4005,HK4006,HK4007,HK4008,HK4009,HK4010,HK4012,HK4018,HK4019,HK4023,HK4024
+2025-03-18 23:00:18.993447 DEBUG::A total of 410 samples were found in both the data and metadata
+2025-03-18 23:00:18.99369 DEBUG::Reordering data/metadata to use same sample ordering
+2025-03-18 23:00:18.994945 INFO::Formula for fixed effects: expr ~  Region
+2025-03-18 23:00:18.996151 INFO::Filter data based on min abundance and min prevalence
+2025-03-18 23:00:18.996899 INFO::Total samples in data: 410
+2025-03-18 23:00:18.997572 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-03-18 23:00:18.999169 INFO::Total filtered features: 0
+2025-03-18 23:00:18.999861 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-03-18 23:00:19.00214 INFO::Total filtered features with variance filtering: 0
+2025-03-18 23:00:19.002763 INFO::Filtered feature names from variance filtering:
+2025-03-18 23:00:19.003296 INFO::Running selected normalization method: NONE
+2025-03-18 23:00:19.00382 INFO::Bypass z-score application to metadata
+2025-03-18 23:00:19.00434 INFO::Running selected transform method: LOG
+2025-03-18 23:00:19.007543 INFO::Running selected analysis method: LM
+2025-03-18 23:00:19.008415 INFO::Creating cluster of 4 R processes
+2025-03-18 23:00:21.880423 INFO::Counting total values for each feature
+2025-03-18 23:00:21.883792 INFO::Writing filtered data to file output_Region_gene_AUS/features/filtered_data.tsv
+2025-03-18 23:00:21.906276 INFO::Writing filtered, normalized data to file output_Region_gene_AUS/features/filtered_data_norm.tsv
+2025-03-18 23:00:21.923831 INFO::Writing filtered, normalized, transformed data to file output_Region_gene_AUS/features/filtered_data_norm_transformed.tsv
+2025-03-18 23:00:21.948445 WARNING::Deleting existing residuals file: output_Region_gene_AUS/fits/residuals.rds
+2025-03-18 23:00:21.949696 INFO::Writing residuals to file output_Region_gene_AUS/fits/residuals.rds
+2025-03-18 23:00:21.957108 WARNING::Deleting existing fitted file: output_Region_gene_AUS/fits/fitted.rds
+2025-03-18 23:00:21.95839 INFO::Writing fitted values to file output_Region_gene_AUS/fits/fitted.rds
+2025-03-18 23:00:21.961251 INFO::Writing all results to file (ordered by increasing q-values): output_Region_gene_AUS/all_results.tsv
+2025-03-18 23:00:21.963354 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): output_Region_gene_AUS/significant_results.tsv
+2025-03-18 23:00:21.966863 WARNING::Input is a matrix, passing through as.data.frame() .

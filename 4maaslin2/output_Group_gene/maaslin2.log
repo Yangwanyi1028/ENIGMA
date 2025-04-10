@@ -1,0 +1,117 @@
+2025-03-18 19:46:35.025602 INFO::Writing function arguments to log file
+2025-03-18 19:46:35.026356 DEBUG::Function arguments
+2025-03-18 19:46:35.026609 DEBUG::Output folder: output_Group_gene
+2025-03-18 19:46:35.02683 DEBUG::Min Abundance: 0.000000
+2025-03-18 19:46:35.027036 DEBUG::Min Prevalence: 0.000000
+2025-03-18 19:46:35.027237 DEBUG::Normalization: NONE
+2025-03-18 19:46:35.027433 DEBUG::Transform: LOG
+2025-03-18 19:46:35.027624 DEBUG::Analysis method: LM
+2025-03-18 19:46:35.027811 DEBUG::Max significance: 0.250000
+2025-03-18 19:46:35.028002 DEBUG::Random effects:
+2025-03-18 19:46:35.028192 DEBUG::Fixed effects: Group
+2025-03-18 19:46:35.028385 DEBUG::Correction method: BH
+2025-03-18 19:46:35.028571 DEBUG::Standardize: FALSE
+2025-03-18 19:46:35.028788 DEBUG::Cores: 4
+2025-03-18 19:46:35.029019 INFO::Verifying options selected are valid
+2025-03-18 19:46:35.029624 INFO::Determining format of input files
+2025-03-18 19:46:35.030186 INFO::Input format is data samples as rows and metadata samples as rows
+2025-03-18 19:46:35.030918 DEBUG::The following samples were found to have features but no metadata. They will be removed. SCD68,SCD69,SCD70,SCD73,SCD72,SCD85,SCD106,SCD88,SCD90,SCD108,SCD87,SCD89,SCD93,SCD139,SCD109,SCD129,SCD110,SCD97,SCD121,SCD96,SCD99,SCD112,SCD100,SCD122,SCD101,SCD130,SCD104,SCD102,SCD105,SCD113,SCD155,SCD131,SCD114,SCD115,SCD116,SCD111,SCD146,SCD147,SCD142,SCD117,SCD132,SCD124,SCD148,SCD125,SCD118,SCD149,SCD156,SCD150,SCD157,SCD127,SCD134,SCD128,SCD135,SCD144,SCD153,SN23,SN19,SN24,SN25,SN26,SN27,SN28,SN21,SN22,SN29,SN36,SN37,SN38,SN39
+2025-03-18 19:46:35.0312 DEBUG::The following samples were found to have metadata but no features. They will be removed. HK1003,HK1004,HK1005,HK1006,HK1008,HK1021,HK1022,HK1024,HK1030,HK1031,HK1032,HK1035,HK1038,HK1041,HK1043,HK1044,HK1045,HK1047,HK1049,HK1050,HK1052,HK1053,HK1054,HK1055,HK1056,HK1057,HK1059,HK1061,HK1063,HK1064,HK1066,HK1067,HK1069,HK1070,HK1071,HK1072,HK1073,HK1074,HK1077,HK1079,HK1081,HK1083,HK1084,HK1085,HK1087,HK1089,HK1090,HK1092,HK1093,HK1094,HK1097,HK1098,HK1099,HK1102,HK1106,HK4001,HK4002,HK4004,HK4005,HK4006,HK4007,HK4008,HK4009,HK4010,HK4012,HK4018,HK4019,HK4023,HK4024
+2025-03-18 19:46:35.031463 DEBUG::A total of 410 samples were found in both the data and metadata
+2025-03-18 19:46:35.03165 DEBUG::Reordering data/metadata to use same sample ordering
+2025-03-18 19:46:35.032537 INFO::Formula for fixed effects: expr ~  Group
+2025-03-18 19:46:35.033368 INFO::Filter data based on min abundance and min prevalence
+2025-03-18 19:46:35.033897 INFO::Total samples in data: 410
+2025-03-18 19:46:35.034387 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-03-18 19:46:35.035717 INFO::Total filtered features: 0
+2025-03-18 19:46:35.03628 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-03-18 19:46:35.038263 INFO::Total filtered features with variance filtering: 0
+2025-03-18 19:46:35.03907 INFO::Filtered feature names from variance filtering:
+2025-03-18 19:46:35.039579 INFO::Running selected normalization method: NONE
+2025-03-18 19:46:35.040047 INFO::Bypass z-score application to metadata
+2025-03-18 19:46:35.040505 INFO::Running selected transform method: LOG
+2025-03-18 19:46:35.043615 INFO::Running selected analysis method: LM
+2025-03-18 19:46:35.044586 INFO::Creating cluster of 4 R processes
+2025-03-18 19:46:37.852722 INFO::Counting total values for each feature
+2025-03-18 19:46:37.856614 INFO::Writing filtered data to file output_Group_gene/features/filtered_data.tsv
+2025-03-18 19:46:37.878826 INFO::Writing filtered, normalized data to file output_Group_gene/features/filtered_data_norm.tsv
+2025-03-18 19:46:37.895077 INFO::Writing filtered, normalized, transformed data to file output_Group_gene/features/filtered_data_norm_transformed.tsv
+2025-03-18 19:46:37.917407 WARNING::Deleting existing residuals file: output_Group_gene/fits/residuals.rds
+2025-03-18 19:46:37.918529 INFO::Writing residuals to file output_Group_gene/fits/residuals.rds
+2025-03-18 19:46:37.925101 WARNING::Deleting existing fitted file: output_Group_gene/fits/fitted.rds
+2025-03-18 19:46:37.926406 INFO::Writing fitted values to file output_Group_gene/fits/fitted.rds
+2025-03-18 19:46:37.928834 INFO::Writing all results to file (ordered by increasing q-values): output_Group_gene/all_results.tsv
+2025-03-18 19:46:37.930692 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): output_Group_gene/significant_results.tsv
+2025-03-18 19:46:37.932031 INFO::Writing heatmap of significant results to file: output_Group_gene/heatmap.pdf
+2025-03-18 19:46:37.933621 INFO::Writing association plots (one for each significant association) to output folder: output_Group_gene
+2025-03-18 19:46:37.935373 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-03-18 19:46:37.935993 INFO::Plotting data for metadata number 1, Group
+2025-03-18 19:46:37.937368 INFO::Creating boxplot for categorical data, Group vs k149_45854_12
+2025-03-18 19:46:38.032838 INFO::Creating boxplot for categorical data, Group vs k149_16561_10
+2025-03-18 19:46:38.130024 INFO::Creating boxplot for categorical data, Group vs k149_130261_154
+2025-03-18 19:46:38.225747 INFO::Creating boxplot for categorical data, Group vs k149_43898_21
+2025-03-18 19:46:38.322326 INFO::Creating boxplot for categorical data, Group vs k149_49100_7
+2025-03-18 19:46:38.417588 INFO::Creating boxplot for categorical data, Group vs k149_110541_22
+2025-03-18 19:46:38.51309 INFO::Creating boxplot for categorical data, Group vs k149_29044_31
+2025-03-18 19:46:38.612994 INFO::Creating boxplot for categorical data, Group vs k149_85897_43
+2025-03-18 19:46:38.717274 INFO::Creating boxplot for categorical data, Group vs k149_131241_136
+2025-03-18 19:46:38.811572 INFO::Creating boxplot for categorical data, Group vs k149_78367_20
+2025-03-18 19:46:38.91084 INFO::Creating boxplot for categorical data, Group vs k149_17078_68
+2025-03-18 19:46:39.004796 INFO::Creating boxplot for categorical data, Group vs k149_54842_45
+2025-03-18 19:46:39.098637 INFO::Creating boxplot for categorical data, Group vs k149_130672_15
+2025-03-18 19:46:39.192327 INFO::Creating boxplot for categorical data, Group vs k149_122792_191
+2025-03-18 19:46:39.288399 INFO::Creating boxplot for categorical data, Group vs k149_163091_92
+2025-03-18 19:46:39.387422 INFO::Creating boxplot for categorical data, Group vs k149_101865_34
+2025-03-18 19:46:39.483374 INFO::Creating boxplot for categorical data, Group vs k149_154020_42
+2025-03-18 19:46:39.577817 INFO::Creating boxplot for categorical data, Group vs k149_78367_35
+2025-03-18 19:46:39.672908 INFO::Creating boxplot for categorical data, Group vs k149_112649_18
+2025-03-18 19:46:39.768108 INFO::Creating boxplot for categorical data, Group vs k149_59941_16
+2025-03-18 19:46:39.86296 INFO::Creating boxplot for categorical data, Group vs k149_163091_90
+2025-03-18 19:46:39.956705 INFO::Creating boxplot for categorical data, Group vs k149_145357_32
+2025-03-18 19:46:40.049849 INFO::Creating boxplot for categorical data, Group vs k149_107332_92
+2025-03-18 19:46:40.14432 INFO::Creating boxplot for categorical data, Group vs k149_43075_294
+2025-03-18 19:46:40.238474 INFO::Creating boxplot for categorical data, Group vs k149_99651_133
+2025-03-18 19:46:40.332861 INFO::Creating boxplot for categorical data, Group vs k149_45431_17
+2025-03-18 19:46:40.426844 INFO::Creating boxplot for categorical data, Group vs k149_110324_8
+2025-03-18 19:46:40.520925 INFO::Creating boxplot for categorical data, Group vs k149_137462_21
+2025-03-18 19:46:40.614884 INFO::Creating boxplot for categorical data, Group vs k149_99651_276
+2025-03-18 19:46:40.707828 INFO::Creating boxplot for categorical data, Group vs k149_7326_19
+2025-03-18 19:46:40.802269 INFO::Creating boxplot for categorical data, Group vs k149_6815_10
+2025-03-18 19:46:40.89601 INFO::Creating boxplot for categorical data, Group vs k149_103437_27
+2025-03-18 19:46:40.989319 INFO::Creating boxplot for categorical data, Group vs k149_91219_23
+2025-03-18 19:46:41.082174 INFO::Creating boxplot for categorical data, Group vs k149_163091_142
+2025-03-18 19:46:41.175199 INFO::Creating boxplot for categorical data, Group vs k149_305790_18
+2025-03-18 19:46:41.26931 INFO::Creating boxplot for categorical data, Group vs k149_130261_183
+2025-03-18 19:46:41.378507 INFO::Creating boxplot for categorical data, Group vs k149_43954_24
+2025-03-18 19:46:41.472832 INFO::Creating boxplot for categorical data, Group vs k149_63122_44
+2025-03-18 19:46:41.60535 INFO::Creating boxplot for categorical data, Group vs k149_78367_238
+2025-03-18 19:46:41.701051 INFO::Creating boxplot for categorical data, Group vs k149_1590_94
+2025-03-18 19:46:41.798952 INFO::Creating boxplot for categorical data, Group vs k149_25741_10
+2025-03-18 19:46:41.89473 INFO::Creating boxplot for categorical data, Group vs k149_49060_107
+2025-03-18 19:46:41.989123 INFO::Creating boxplot for categorical data, Group vs k149_212974_29
+2025-03-18 19:46:42.083651 INFO::Creating boxplot for categorical data, Group vs k149_49060_101
+2025-03-18 19:46:42.177155 INFO::Creating boxplot for categorical data, Group vs k149_49232_21
+2025-03-18 19:46:42.271345 INFO::Creating boxplot for categorical data, Group vs k149_148463_138
+2025-03-18 19:46:42.365383 INFO::Creating boxplot for categorical data, Group vs k149_49857_4
+2025-03-18 19:46:42.459322 INFO::Creating boxplot for categorical data, Group vs k149_116128_96
+2025-03-18 19:46:42.552133 INFO::Creating boxplot for categorical data, Group vs k149_34831_79
+2025-03-18 19:46:42.645651 INFO::Creating boxplot for categorical data, Group vs k149_118281_20
+2025-03-18 19:46:42.740745 INFO::Creating boxplot for categorical data, Group vs k149_106777_66
+2025-03-18 19:46:42.834983 INFO::Creating boxplot for categorical data, Group vs k149_168967_172
+2025-03-18 19:46:42.928725 INFO::Creating boxplot for categorical data, Group vs k149_44733_4
+2025-03-18 19:46:43.026839 INFO::Creating boxplot for categorical data, Group vs k149_85850_31
+2025-03-18 19:46:43.12632 INFO::Creating boxplot for categorical data, Group vs k149_148463_24
+2025-03-18 19:46:43.223704 INFO::Creating boxplot for categorical data, Group vs k149_198842_65
+2025-03-18 19:46:43.3189 INFO::Creating boxplot for categorical data, Group vs k149_115884_6
+2025-03-18 19:46:43.414321 INFO::Creating boxplot for categorical data, Group vs k149_28321_45
+2025-03-18 19:46:43.50985 INFO::Creating boxplot for categorical data, Group vs k149_69830_8
+2025-03-18 19:46:43.605151 INFO::Creating boxplot for categorical data, Group vs k149_277096_39
+2025-03-18 19:46:43.699613 INFO::Creating boxplot for categorical data, Group vs k149_218693_8
+2025-03-18 19:46:43.793159 INFO::Creating boxplot for categorical data, Group vs k149_74925_127
+2025-03-18 19:46:43.885683 INFO::Creating boxplot for categorical data, Group vs k149_168025_95
+2025-03-18 19:46:43.979652 INFO::Creating boxplot for categorical data, Group vs k149_211711_7
+2025-03-18 19:46:44.073784 INFO::Creating boxplot for categorical data, Group vs k149_117874_31
+2025-03-18 19:46:44.167804 INFO::Creating boxplot for categorical data, Group vs k149_191853_13
+2025-03-18 19:46:44.261556 INFO::Creating boxplot for categorical data, Group vs k149_78077_21
+2025-03-18 19:46:44.354338 INFO::Creating boxplot for categorical data, Group vs k149_134666_10
+2025-03-18 19:46:52.968381 WARNING::Input is a matrix, passing through as.data.frame() .

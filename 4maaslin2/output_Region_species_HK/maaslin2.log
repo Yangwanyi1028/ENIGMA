@@ -1,0 +1,42 @@
+2025-03-18 23:49:35.710757 INFO::Writing function arguments to log file
+2025-03-18 23:49:35.71151 DEBUG::Function arguments
+2025-03-18 23:49:35.711751 DEBUG::Output folder: output_Region_species_HK
+2025-03-18 23:49:35.711967 DEBUG::Min Abundance: 0.000000
+2025-03-18 23:49:35.712167 DEBUG::Min Prevalence: 0.000000
+2025-03-18 23:49:35.712357 DEBUG::Normalization: CLR
+2025-03-18 23:49:35.712546 DEBUG::Transform: NONE
+2025-03-18 23:49:35.712732 DEBUG::Analysis method: LM
+2025-03-18 23:49:35.712916 DEBUG::Max significance: 0.250000
+2025-03-18 23:49:35.713104 DEBUG::Random effects:
+2025-03-18 23:49:35.713286 DEBUG::Fixed effects: Region
+2025-03-18 23:49:35.713468 DEBUG::Correction method: BH
+2025-03-18 23:49:35.713652 DEBUG::Standardize: FALSE
+2025-03-18 23:49:35.713834 DEBUG::Cores: 4
+2025-03-18 23:49:35.714012 INFO::Verifying options selected are valid
+2025-03-18 23:49:35.714556 INFO::Determining format of input files
+2025-03-18 23:49:35.715089 INFO::Input format is data samples as rows and metadata samples as rows
+2025-03-18 23:49:35.727247 DEBUG::A total of 479 samples were found in both the data and metadata
+2025-03-18 23:49:35.727595 DEBUG::Reordering data/metadata to use same sample ordering
+2025-03-18 23:49:35.743823 INFO::Formula for fixed effects: expr ~  Region
+2025-03-18 23:49:35.744768 INFO::Filter data based on min abundance and min prevalence
+2025-03-18 23:49:35.745278 INFO::Total samples in data: 479
+2025-03-18 23:49:35.745758 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-03-18 23:49:35.773543 INFO::Total filtered features: 77
+2025-03-18 23:49:35.774577 INFO::Filtered feature names from abundance and prevalence filtering: GGB4754_SGB6584, GGB3612_SGB4881, GGB4555_SGB6286, Roseburia_SGB4949, GGB3180_SGB4202, GGB4239_SGB5731, Moraxella_osloensis, Candidatus_Campylobacter_infans, GGB50290_SGB70366, Gramella_SGB8590, GGB6554_SGB9256, Candidatus_Soleaferrea_massiliensis, GGB9594_SGB15016, GGB9635_SGB15102, Prevotella_pectinovora, GGB33896_SGB14872, Gallibacter_intestinalis, Hungatella_SGB9293, Anaerococcus_degeneri, Prevotella_SGB1687, GGB4558_SGB6290, GGB9522_SGB98319, Prevotella_sp_oral_taxon_376, GGB4272_SGB5822, Mycetocola_saprophilus, Phocaeicola_barnesiae, GGB80012_SGB15003, GGB6512_SGB9197, Enterobacter_wuhouensis, Olsenella_sp_SW781, Jeotgalicoccus_halotolerans, Paenalcaligenes_hominis, Paracoccus_haeundaensis, Propionimicrobium_lymphophilum, Varibaculum_cambriense, Clostridium_massiliamazoniense, GGB519_SGB697, Companilactobacillus_kimchii, Companilactobacillus_nantensis, Companilactobacillus_bobalius, GGB9357_SGB14330, GGB70873_SGB95326, Enterobacter_sp_FS01, Kosakonia_cowanii, Microbacterium_sp_BH_3_3_3, Weissella_coleopterorum, GGB3751_SGB5099, Gemella_bergeri, Brachybacterium_squillarum, Romboutsia_lituseburensis, Kocuria_coralli, GGB12693_SGB19690, Candidatus_Howiella_intestinavium, Methanobrevibacter_arboriphilus, Tissierellaceae_bacterium_BX21, GGB4745_SGB6570, Selenomonas_montiformis, GGB1567_SGB2154, Haemophilus_paraphrohaemolyticus, Campylobacter_SGB1823, Streptococcus_SGB9221, Akkermansia_SGB48227, Candidatus_Timburyella_stercoris, Mediterranea_sp_An20, GGB9536_SGB14939, Weissella_halotolerans, Pseudoclavibacter_caeni, Terrisporobacter_mayombei, GGB13532_SGB14832, GGB4580_SGB6330, GGB1672_SGB2289, GGB4559_SGB6292, GGB9081_SGB70926, Piscicoccus_intestinalis, Gordonia_aichiensis, GGB1496_SGB2072, GGB40344_SGB47664
+2025-03-18 23:49:35.836445 INFO::Total filtered features with variance filtering: 0
+2025-03-18 23:49:35.837465 INFO::Filtered feature names from variance filtering:
+2025-03-18 23:49:35.838003 INFO::Running selected normalization method: CLR
+2025-03-18 23:49:36.115537 INFO::Bypass z-score application to metadata
+2025-03-18 23:49:36.11648 INFO::Running selected transform method: NONE
+2025-03-18 23:49:36.117034 INFO::Running selected analysis method: LM
+2025-03-18 23:49:36.117552 INFO::Creating cluster of 4 R processes
+2025-03-18 23:50:57.914172 INFO::Counting total values for each feature
+2025-03-18 23:50:58.038428 INFO::Writing filtered data to file output_Region_species_HK/features/filtered_data.tsv
+2025-03-18 23:50:58.569058 INFO::Writing filtered, normalized data to file output_Region_species_HK/features/filtered_data_norm.tsv
+2025-03-18 23:50:59.584369 INFO::Writing filtered, normalized, transformed data to file output_Region_species_HK/features/filtered_data_norm_transformed.tsv
+2025-03-18 23:51:00.594238 WARNING::Deleting existing residuals file: output_Region_species_HK/fits/residuals.rds
+2025-03-18 23:51:00.596437 INFO::Writing residuals to file output_Region_species_HK/fits/residuals.rds
+2025-03-18 23:51:01.127188 WARNING::Deleting existing fitted file: output_Region_species_HK/fits/fitted.rds
+2025-03-18 23:51:01.128333 INFO::Writing fitted values to file output_Region_species_HK/fits/fitted.rds
+2025-03-18 23:51:01.205103 INFO::Writing all results to file (ordered by increasing q-values): output_Region_species_HK/all_results.tsv
+2025-03-18 23:51:01.219276 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): output_Region_species_HK/significant_results.tsv

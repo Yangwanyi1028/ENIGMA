@@ -1,0 +1,221 @@
+rm(list = ls())
+setwd('/Users/yangwanyi/Downloads/ENIGMA_STUDY_DATA/1maketable/')
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(plyr)
+pacman::p_load(table1) #加载table1包
+
+data <- readxl::read_excel('../source_data/ENIGMA_metadata.xlsx')
+need_sample = read.csv('../00sample_name_mapping/sample_479.csv')
+
+colnames(data)
+# data[is.na(data)] <- "Unknown"
+
+col_name <- c("study_id","cdai","cd_act",	"age_final","gender",	"smoke","newregion"	,
+              "bmi","wbc","crp","bowel_resection","cd_behaviour___1",	"cd_behaviour___2",
+              "cd_behaviour___3",	"any_medication", "cd_tx_oralASA","cd_tx_SysSteroids",
+              "cd_tx_immunosup", "cd_tx_aTNF")
+need_sample <- need_sample$clade_name
+data <- data[data$study_id %in% need_sample,col_name]
+dim(data)
+
+# 筛选出正常人组
+data_control <- data %>%
+  mutate(extracted_numbers = str_extract(study_id, "\\d+")) %>%
+  filter(substr(extracted_numbers, 1, 1) != "1") %>%
+  select(-extracted_numbers)  # 删除辅助列
+
+# 筛选出CD组,232
+data_cd <- data %>%
+  mutate(extracted_numbers = str_extract(study_id, "\\d+")) %>%
+  filter(substr(extracted_numbers, 1, 1) == "1") %>%
+  select(-extracted_numbers)  # 删除辅助列
+
+# 以下为分类分类变量，需要更改映射值
+# "cd_act", "smoke", "gender", "bowel_resection" ,
+# "cd_behaviour___1", "cd_behaviour___2", "cd_behaviour___3" ,"any_medication"  
+
+data_cd_filter <- data_cd %>%
+  mutate(cd_act = case_when(
+    cd_act == "Remission" ~ "CD inactive",  # 如果是 Remission，则改为 CD inactive
+    TRUE ~ "CD active"                     # 其余情况改为 CD active
+  ),
+  gender = case_when(
+    gender == 1 ~ "Male",                  # 如果 gender 是 1，则改为 Male
+    gender == 2 ~ "Female",                # 如果 gender 是 2，则改为 Female
+    TRUE ~ as.character(gender)            # 其他情况保持原值（可选）
+  ),
+  smoke = case_when(
+    smoke == 1 ~ "Current smoker",
+    smoke == 2 ~ "Past/Ex smoker",
+    smoke == 3 ~ "Never smoker",
+    TRUE ~ as.character(smoke)        
+  ),
+  bowel_resection = case_when(
+    bowel_resection == 1 ~ "Yes",
+    bowel_resection == 0 ~ "No",
+    TRUE ~ as.character(bowel_resection)      
+  ),
+  cd_behaviour___1 = case_when(
+    cd_behaviour___1 == 1 ~ "Yes",
+    cd_behaviour___1 == 0 ~ "No",
+    TRUE ~ as.character(cd_behaviour___1)
+  ),
+  cd_behaviour___2 = case_when(
+    cd_behaviour___2 == 1 ~ "Yes",
+    cd_behaviour___2 == 0 ~ "No",
+    TRUE ~ as.character(cd_behaviour___2)
+  ),
+  cd_behaviour___3 = case_when(
+    cd_behaviour___3 == 1 ~ "Yes",
+    cd_behaviour___3 == 0 ~ "No",
+    TRUE ~ as.character(cd_behaviour___3)
+  ),
+  any_medication = case_when(
+    any_medication == 1 ~ "Yes",
+    any_medication == 0 ~ "No",
+    TRUE ~ as.character(any_medication)
+  ),
+  crp = case_when(
+    is.na(crp) ~ NA_character_,            # 如果是 NA，则保持为 NA
+    is.character(crp) & crp == "<0.6" ~ "<10",  # 字符串 "<1"
+    is.character(crp) & crp == "<1" ~ "<10",  # 字符串 "<5"
+    is.character(crp) & crp == "<5" ~ "<10",  # 字符串 "<5"
+    TRUE ~ as.character(ifelse(as.numeric(crp) >= 10, ">=10", "<10"))  # 其他数值转换
+  ),
+  newregion = case_when(
+    newregion == 'Australia' ~ 'Australia',
+    newregion == 'Hong Kong' ~ 'Hong Kong',
+    newregion == "China" ~ 'Mainland China',
+    TRUE ~ newregion
+  ),
+  cd_tx_oralASA = case_when(
+    cd_tx_oralASA == 1 ~ "Yes",
+    cd_tx_oralASA == 0 ~ "No",
+    TRUE ~ as.character(cd_tx_oralASA)
+    ),
+  cd_tx_SysSteroids = case_when(
+    cd_tx_SysSteroids == 1 ~ "Yes",
+    cd_tx_SysSteroids == 0 ~ "No",
+    TRUE ~ as.character(cd_tx_SysSteroids)
+  ),
+  cd_tx_immunosup = case_when(
+    cd_tx_immunosup == 1 ~ "Yes",
+    cd_tx_immunosup == 0 ~ "No",
+    TRUE ~ as.character(cd_tx_immunosup)
+  ),
+  cd_tx_aTNF = case_when(
+    cd_tx_aTNF == 1 ~ "Yes",
+    cd_tx_aTNF == 0 ~ "No",
+    TRUE ~ as.character(cd_tx_aTNF)
+  )
+ )
+
+# cd_tx_oralASA
+# cd_tx_SysSteroids
+# cd_tx_immunosup
+# cd_tx_Biologic
+
+data_control$bowel_resection <- NA
+data_control_filter <- data_control %>%
+    mutate(gender = case_when(
+      gender == 1 ~ "Male",                  # 如果 gender 是 1，则改为 Male
+      gender == 2 ~ "Female",                # 如果 gender 是 2，则改为 Female
+      TRUE ~ as.character(gender)            # 其他情况保持原值（可选）
+    ),
+    smoke = case_when(
+      smoke == 1 ~ "Current smoker",
+      smoke == 2 ~ "Past/Ex smoker",
+      smoke == 3 ~ "Never smoker",
+      TRUE ~ as.character(smoke)        
+    ),
+    any_medication = case_when(
+      any_medication == 1 ~ "Yes",
+      any_medication == 0 ~ "No",
+      TRUE ~ as.character(any_medication)
+    ),
+    cd_act = case_when(
+      is.na(cd_act) == TRUE ~ 'Control',
+      TRUE ~ cd_act
+    ),
+    newregion = case_when(
+      newregion == 'Australia' ~ 'Australia',
+      newregion == 'Hong Kong' ~ 'Hong Kong',
+      newregion == "China" ~ 'Mainland China',
+      TRUE ~ newregion
+    )
+    )
+
+data_filter <- rbind(data_cd_filter,data_control_filter)
+
+data_filter1 <- data_filter %>%
+  dplyr::rename(Inflammatory = cd_behaviour___1,
+         Stricturing = cd_behaviour___2,
+         Penetrating = cd_behaviour___3,
+         Gender = gender,
+         Age = age_final,
+         Smoke = smoke,
+         CDAI = cdai,
+         BMI = bmi,
+         Region = newregion,
+         Group = cd_act,
+         `White Blood Cell Count` = wbc,
+         `C-Reactive Protein` = crp,
+         `History of bowel resection\\surgery` = bowel_resection,
+         `Any medications?` = any_medication,
+         `Any ORAL aminosalicilate?` = cd_tx_oralASA,
+         `Any systemic steroids?` = cd_tx_SysSteroids,
+         `Any ORAL immunosuppression?` = cd_tx_immunosup,
+         `Any Biological therapy` = cd_tx_aTNF
+         )
+
+write.csv(data_filter1,'metadata_filter.csv')
+# ~ 后面接需要统计描述的列，| 表示分组
+table_out <- table1( ~ Age + Gender + Smoke + CDAI + BMI + `White Blood Cell Count` + 
+                       `C-Reactive Protein` + `History of bowel resection\\surgery` +
+                       Inflammatory + Stricturing + Penetrating + `Any medications?` +
+                       `Any medications?` + `Any ORAL aminosalicilate?` + `Any systemic steroids?` +
+                     `Any ORAL immunosuppression?` + `Any Biological therapy` | Region + Group,
+                     data = data_filter1, overall=F)
+table_out
+
+write.csv(table_out,'table_out.csv')
+#———————————————————————————————————————————— 定义检验函数
+# 这两个主要是实现卡方检验和t检验，若是需要用到非参数检验、方差分析需要自己定义
+pvalue <- function(x, ...) {
+  y <- unlist(x)
+  g <- factor(rep(1:length(x), times=sapply(x, length)))
+  
+  if (is.numeric(y)) {
+    # 数值型数据用t-test(两组比较)
+    p <- t.test(y ~ g)$p.value                          
+  } else {
+    # 因子型数据用卡方
+    p <- chisq.test(xtabs(~y+ g))$p.value                
+  }
+  c("", sub("<", "&lt;", format.pval(p, digits=3, eps=0.001)))
+  
+}
+
+statistic <- function(x, ...) {
+  y <- unlist(x)
+  g <- factor(rep(1:length(x), times=sapply(x, length)))
+  
+  if (is.numeric(y)) {
+    
+    statistic <- t.test(y ~ g)$statistic
+  } else {
+    
+    statistic <- chisq.test(xtabs(~y+ g))$statistic
+  }
+  c("",round(statistic,3))
+}
+
+#———————————————————————————————————————————— 三线表
+# 输出带有统计检验的三线表
+# 分别比较是否患有高血压两组之间所有特征的差异~
+# table1(~.|Gender,data = data_filter[,-1], 
+#        extra.col=list( 'statistic'=statistic,'P-value'=pvalue),
+#        overall=F)
+

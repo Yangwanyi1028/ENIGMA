@@ -1,0 +1,480 @@
+"study_id","Group","Gender","Smoke","Region","History.of.bowel.resection.surgery","C.Reactive.Protein","Inflammatory","Stricturing","Penetrating"
+"AUS1002","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1005","CD inactive","Male","Past/Ex smoker","AUS","No","<10","No","No","Yes"
+"AUS1006","CD inactive","Female","Past/Ex smoker","AUS","No","<10","No","Yes","No"
+"AUS1007","CD inactive","Male","Never smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1008","CD active","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1010","CD inactive","Male","Never smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1011","CD inactive","Male","Never smoker","AUS","No",">=10","No","No","Yes"
+"AUS1012","CD inactive","Female","Never smoker","AUS","No","<10","No","No","Yes"
+"AUS1013","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1015","CD inactive","Female","Past/Ex smoker","AUS","No","<10","No","Yes","No"
+"AUS1016","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","Yes"
+"AUS1017","CD active","Male","Current smoker","AUS","No","<10","Yes","No","No"
+"AUS1021","CD inactive","Male","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1022","CD active","Female","Current smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1023","CD inactive","Female","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1024","CD active","Female","Never smoker","AUS","No","<10","No","Yes","Yes"
+"AUS1027","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1028","CD inactive","Male","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1029","CD active","Male","Never smoker","AUS","Yes","<10","No","Yes","Yes"
+"AUS1032","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1033","CD active","Male","Past/Ex smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1034","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1035","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1036","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1040","CD inactive","Male","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1041","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1044","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1045","CD inactive","Male","Past/Ex smoker","AUS","No","<10","No","Yes","No"
+"AUS1046","CD active","Male","Never smoker","AUS","Yes",">=10","Yes","No","No"
+"AUS1047","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1048","CD inactive","Male","Never smoker","AUS","No",NA,"Yes","Yes","No"
+"AUS1049","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1055","CD inactive","Female","Never smoker","AUS","No",">=10","Yes","No","No"
+"AUS1057","CD inactive","Male","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1059","CD inactive","Female","Never smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1060","CD active","Male","Never smoker","AUS","No",NA,"Yes","No","No"
+"AUS1061","CD inactive","Male","Never smoker","AUS","No",">=10","Yes","No","No"
+"AUS1062","CD inactive","Male","Never smoker","AUS","No","<10","No","No","Yes"
+"AUS1063","CD inactive","Male","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1064","CD active","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1065","CD inactive","Female","Never smoker","AUS","No","<10","No","No","Yes"
+"AUS1066","CD inactive","Male","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1067","CD active","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","Yes"
+"AUS1069","CD active","Female","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1070","CD inactive","Male","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1071","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1073","CD active","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1074","CD inactive","Female","Never smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1075","CD inactive","Male","Never smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1076","CD inactive","Female","Past/Ex smoker","AUS","No",">=10","No","Yes","No"
+"AUS1077","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1078","CD inactive","Male","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1079","CD inactive","Male","Never smoker","AUS","No",NA,"Yes","No","No"
+"AUS1080","CD inactive","Female","Current smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1081","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1082","CD inactive","Female","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1083","CD active","Male","Past/Ex smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1084","CD inactive","Female","Never smoker","AUS","No","<10","Yes","Yes","No"
+"AUS1085","CD inactive","Male","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1087","CD active","Male","Current smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1089","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1091","CD inactive","Male","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1093","CD inactive","Male","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1094","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1095","CD inactive","Female","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1097","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1098","CD inactive","Female","Never smoker","AUS","No",">=10","No","Yes","No"
+"AUS1099","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1100","CD inactive","Female","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1101","CD inactive","Male","Never smoker","AUS","Yes","<10","No","No","Yes"
+"AUS1102","CD inactive","Female","Never smoker","AUS","No","<10","No","No","Yes"
+"AUS1103","CD inactive","Female","Never smoker","AUS","No",">=10","Yes","No","No"
+"AUS1104","CD inactive","Female","Never smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1105","CD active","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1107","CD inactive","Male","Never smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1108","CD inactive","Female","Past/Ex smoker","AUS","No","<10","No","Yes","No"
+"AUS1109","CD inactive","Male","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1111","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1113","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1114","CD inactive","Female","Never smoker","AUS","No","<10","No","Yes","No"
+"AUS1115","CD inactive","Female","Never smoker","AUS","No",">=10","Yes","No","No"
+"AUS1116","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1117","CD inactive","Male","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1118","CD inactive","Female","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1120","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1121","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1122","CD inactive","Female","Current smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1123","CD inactive","Male","Past/Ex smoker","AUS","No",">=10","Yes","No","No"
+"AUS1125","CD inactive","Female","Past/Ex smoker","AUS","No",NA,"Yes","No","No"
+"AUS1126","CD inactive","Male","Past/Ex smoker","AUS","Yes","<10","Yes","No","No"
+"AUS1128","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1129","CD inactive","Male","Past/Ex smoker","AUS","No","<10","Yes","No","No"
+"AUS1131","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"AUS1132","CD inactive","Male","Never smoker","AUS","No","<10","Yes","No","No"
+"AUS1133","CD inactive","Female","Past/Ex smoker","AUS","Yes","<10","No","Yes","No"
+"HK1001","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1002","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1003","CD active","Male","Never smoker","HK","No",">=10","Yes","No","No"
+"HK1004","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1005","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1006","CD inactive","Female","Never smoker","HK","Yes","<10","No","Yes","No"
+"HK1007","CD active","Female","Never smoker","HK","Yes","<10","No","Yes","No"
+"HK1008","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1009","CD inactive","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1010","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1011","CD active","Male","Current smoker","HK","No","<10","No","No","Yes"
+"HK1012","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1013","CD active","Male","Current smoker","HK","No","<10","Yes","No","No"
+"HK1014","CD inactive","Male","Never smoker","HK","No",">=10","No","Yes","No"
+"HK1015","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1016","CD inactive","Female","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1017","CD active","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1018","CD inactive","Male","Current smoker","HK","No","<10","No","No","Yes"
+"HK1019","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1020","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1021","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1022","CD inactive","Male","Never smoker","HK","Yes","<10","No","Yes","No"
+"HK1024","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1025","CD inactive","Female","Never smoker","HK","No","<10","No","Yes","No"
+"HK1026","CD inactive","Male","Past/Ex smoker","HK","Yes","<10","No","No","Yes"
+"HK1027","CD inactive","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1028","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1029","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1030","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1031","CD inactive","Female","Never smoker","HK","No","<10","No","Yes","No"
+"HK1032","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1035","CD inactive","Female","Never smoker","HK","No","<10","No","Yes","No"
+"HK1036","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1037","CD active","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1038","CD inactive","Female","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1039","CD active","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1041","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1043","CD active","Male","Never smoker","HK","No",">=10","No","Yes","No"
+"HK1044","CD active","Male","Never smoker","HK","Yes",">=10","Yes","No","No"
+"HK1045","CD inactive","Female","Never smoker","HK","No","<10","No","Yes","No"
+"HK1047","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1048","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1049","CD inactive","Male","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1050","CD inactive","Male","Past/Ex smoker","HK","Yes",">=10","No","No","Yes"
+"HK1052","CD inactive","Male","Past/Ex smoker","HK","No","<10","No","No","Yes"
+"HK1053","CD inactive","Male","Past/Ex smoker","HK","No","<10","No","No","Yes"
+"HK1054","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1055","CD inactive","Male","Never smoker","HK","No",">=10","No","No","Yes"
+"HK1056","CD active","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1057","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1058","CD inactive","Female","Never smoker","HK","No","<10","Yes","No","No"
+"HK1059","CD inactive","Male","Never smoker","HK","No",">=10","Yes","No","No"
+"HK1060","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1061","CD inactive","Male","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1063","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1064","CD inactive","Male","Past/Ex smoker","HK","No","<10","No","No","Yes"
+"HK1065","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1066","CD inactive","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1067","CD active","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1068","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1069","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1070","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1071","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1072","CD active","Male","Past/Ex smoker","HK","No","<10","No","No","Yes"
+"HK1073","CD active","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1074","CD inactive","Female","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1077","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1078","CD inactive","Male","Never smoker","HK","No",">=10","No","Yes","No"
+"HK1079","CD inactive","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1081","CD inactive","Male","Current smoker","HK","No","<10","No","No","Yes"
+"HK1083","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1084","CD inactive","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1085","CD active","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1086","CD inactive","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1087","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1088","CD inactive","Female","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1089","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1090","CD active","Female","Never smoker","HK","No","<10","No","No","Yes"
+"HK1092","CD inactive","Male","Past/Ex smoker","HK","No",">=10","Yes","No","No"
+"HK1093","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"HK1094","CD active","Female","Current smoker","HK","No","<10","No","No","Yes"
+"HK1095","CD active","Male","Never smoker","HK","No","<10","Yes","No","No"
+"HK1097","CD inactive","Male","Never smoker","HK","No","<10","No","No","Yes"
+"HK1098","CD inactive","Female","Never smoker","HK","Yes","<10","No","Yes","No"
+"HK1099","CD inactive","Female","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1101","CD inactive","Female","Never smoker","HK","Yes","<10","No","No","Yes"
+"HK1102","CD active","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1104","CD inactive","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1105","CD active","Male","Never smoker","HK","No","<10","No","Yes","No"
+"HK1106","CD inactive","Male","Past/Ex smoker","HK","No","<10","Yes","No","No"
+"KM1001","CD inactive","Male","Current smoker","MC","No","<10","Yes","No","No"
+"KM1002","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1003","CD inactive","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1004","CD active","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1005","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1006","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1007","CD inactive","Male","Current smoker","MC","No","<10","No","No","Yes"
+"KM1008","CD inactive","Female","Past/Ex smoker","MC","No","<10","Yes","No","No"
+"KM1009","CD active","Male","Never smoker","MC","No","<10","No","No","No"
+"KM1010","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1011","CD active","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1012","CD active","Male","Past/Ex smoker","MC","No",">=10","Yes","No","No"
+"KM1013","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1014","CD active","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1015","CD inactive","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1016","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1017","CD inactive","Male","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1018","CD active","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1019","CD active","Male","Current smoker","MC","No","<10","Yes","No","No"
+"KM1020","CD active","Male","Past/Ex smoker","MC","No",">=10","Yes","No","No"
+"KM1021","CD inactive","Male","Past/Ex smoker","MC","No",">=10","Yes","No","No"
+"KM1022","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1023","CD active","Male","Past/Ex smoker","MC","No","<10","Yes","No","No"
+"KM1024","CD inactive","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1031","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1032","CD active","Male","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1033","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1034","CD inactive","Male","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1035","CD active","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1036","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1037","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1038","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1039","CD inactive","Male","Current smoker","MC","No",">=10","Yes","No","No"
+"KM1040","CD inactive","Male","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1041","CD active","Female","Never smoker","MC","No",">=10","No","Yes","No"
+"KM1042","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1043","CD active","Female","Never smoker","MC","No",">=10","No","No","Yes"
+"KM1044","CD inactive","Male","Past/Ex smoker","MC","No","<10","Yes","No","No"
+"KM1045","CD inactive","Male","Past/Ex smoker","MC","No","<10","Yes","No","No"
+"KM1046","CD active","Female","Never smoker","MC","No","<10","No","Yes","No"
+"KM1047","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1048","CD inactive","Male","Current smoker","MC","No","<10","Yes","No","No"
+"KM1049","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1050","CD inactive","Male","Never smoker","MC","No","<10","No","No","Yes"
+"KM1051","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1052","CD active","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1053","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1054","CD active","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1055","CD inactive","Female","Never smoker","MC","No",">=10","Yes","No","No"
+"KM1056","CD inactive","Male","Past/Ex smoker","MC","No","<10","Yes","No","No"
+"KM1057","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1058","CD inactive","Female","Never smoker","MC","No","<10","Yes","No","No"
+"KM1059","CD active","Male","Past/Ex smoker","MC","No",">=10","No","No","Yes"
+"KM1060","CD inactive","Male","Never smoker","MC","No","<10","Yes","No","No"
+"KM1061","CD inactive","Female","Never smoker","MC","No","<10","No","Yes","No"
+"AUS2008","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2012","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2015","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2017","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2023","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2024","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2027","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2033","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2044","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2047","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2058","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2066","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2067","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2069","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2070","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2071","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2073","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2074","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2080","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2083","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2091","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2098","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2100","Control","Female","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS2101","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2102","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2113","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS2118","Control","Male","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS2120","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2121","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2129","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS2131","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3006","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS3007","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3011","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3015","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3016","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3017","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3024","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3028","Control","Female","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS3029","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3032","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS3034","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3046","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3048","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3049","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3059","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3060","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3062","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3063","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3064","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3065","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS3066","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3082","Control","Male","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS3089","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3095","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS3097","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS3128","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4004","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS4005","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4007","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4010","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4013","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4017","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4018","Control","Male","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4020","Control","Female","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS4021","Control","Female","Current smoker","AUS",NA,NA,NA,NA,NA
+"AUS4025","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4027","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4028","Control","Female","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS4029","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4030","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS4035","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS4037","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"AUS4040","Control","Female","Never smoker","AUS",NA,NA,NA,NA,NA
+"AUS4041","Control","Male","Past/Ex smoker","AUS",NA,NA,NA,NA,NA
+"HK2001","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2010","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2011","Control","Female","Current smoker","HK",NA,NA,NA,NA,NA
+"HK2012","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2014","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2016","Control","Male","Past/Ex smoker","HK",NA,NA,NA,NA,NA
+"HK2017","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2018","Control","Female","Current smoker","HK",NA,NA,NA,NA,NA
+"HK2020","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2025","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2026","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2028","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2037","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2052","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2056","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2061","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2065","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2068","Control","Male","Current smoker","HK",NA,NA,NA,NA,NA
+"HK2078","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2086","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK2095","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3002","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3007","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3009","Control","Female","Past/Ex smoker","HK",NA,NA,NA,NA,NA
+"HK3012","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3013","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3014","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3015","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3019","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3027","Control","Male","Past/Ex smoker","HK",NA,NA,NA,NA,NA
+"HK3029","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3036","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3039","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3048","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3058","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3060","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3088","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3095","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3101","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK3104","Control","Male","Past/Ex smoker","HK",NA,NA,NA,NA,NA
+"HK3105","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4001","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4002","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4003","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4004","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4005","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4006","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4007","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4008","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4009","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4010","Control","Male","Current smoker","HK",NA,NA,NA,NA,NA
+"HK4011","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4012","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4013","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4014","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4015","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4016","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4018","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4019","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4020","Control","Male","Past/Ex smoker","HK",NA,NA,NA,NA,NA
+"HK4021","Control","Male","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4023","Control","Female","Never smoker","HK",NA,NA,NA,NA,NA
+"HK4024","Control","Female","Current smoker","HK",NA,NA,NA,NA,NA
+"KM2001","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2002","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2003","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2005","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2006","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2007","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2014","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM2015","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2016","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2017","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2018","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2020","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2037","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2038","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2039","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2041","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2043","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM2044","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2045","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2046","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2051","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2052","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2055","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM2056","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM2060","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3008","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3009","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM3010","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3011","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3012","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3013","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM3019","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3021","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3022","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3023","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3024","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3031","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3032","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3033","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3034","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3035","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3036","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3040","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3042","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3047","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3048","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3049","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3050","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3052","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3054","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM3057","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3058","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3059","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM3061","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM4001","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM4002","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4003","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4004","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4005","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4006","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4007","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4008","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4009","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4010","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4011","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4012","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4013","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4014","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4015","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4016","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4017","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4018","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4020","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4021","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4022","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4023","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4024","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4026","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4031","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4032","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM4033","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4034","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4035","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4036","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4037","Control","Male","Past/Ex smoker","MC",NA,NA,NA,NA,NA
+"KM4038","Control","Female","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4039","Control","Male","Current smoker","MC",NA,NA,NA,NA,NA
+"KM4040","Control","Male","Never smoker","MC",NA,NA,NA,NA,NA
+"KM4041","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4042","Control","Male",NA,"MC",NA,NA,NA,NA,NA
+"KM4043","Control","Male",NA,"MC",NA,NA,NA,NA,NA
+"KM4044","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4045","Control","Male",NA,"MC",NA,NA,NA,NA,NA
+"KM4046","Control","Male",NA,"MC",NA,NA,NA,NA,NA
+"KM4047","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4048","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4049","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4050","Control","Male",NA,"MC",NA,NA,NA,NA,NA
+"KM4051","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4052","Control","Female",NA,"MC",NA,NA,NA,NA,NA
+"KM4053","Control","Female",NA,"MC",NA,NA,NA,NA,NA

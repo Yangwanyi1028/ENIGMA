@@ -1,0 +1,193 @@
+2025-03-18 20:48:16.054653 INFO::Writing function arguments to log file
+2025-03-18 20:48:16.0558 DEBUG::Function arguments
+2025-03-18 20:48:16.056127 DEBUG::Output folder: output_Group_pathway_filter
+2025-03-18 20:48:16.056405 DEBUG::Min Abundance: 0.000000
+2025-03-18 20:48:16.05665 DEBUG::Min Prevalence: 0.000000
+2025-03-18 20:48:16.056908 DEBUG::Normalization: NONE
+2025-03-18 20:48:16.057183 DEBUG::Transform: LOG
+2025-03-18 20:48:16.057422 DEBUG::Analysis method: LM
+2025-03-18 20:48:16.057678 DEBUG::Max significance: 0.250000
+2025-03-18 20:48:16.057928 DEBUG::Random effects:
+2025-03-18 20:48:16.058174 DEBUG::Fixed effects: Group
+2025-03-18 20:48:16.058611 DEBUG::Correction method: BH
+2025-03-18 20:48:16.05897 DEBUG::Standardize: FALSE
+2025-03-18 20:48:16.059277 DEBUG::Cores: 4
+2025-03-18 20:48:16.059538 INFO::Verifying options selected are valid
+2025-03-18 20:48:16.060484 INFO::Determining format of input files
+2025-03-18 20:48:16.061254 INFO::Input format is data samples as rows and metadata samples as rows
+2025-03-18 20:48:16.062348 DEBUG::The following samples were found to have features but no metadata. They will be removed. SCD100,SCD101,SCD102,SCD104,SCD105,SCD106,SCD108,SCD109,SCD110,SCD111,SCD112,SCD113,SCD114,SCD115,SCD116,SCD117,SCD118,SCD121,SCD122,SCD124,SCD125,SCD127,SCD128,SCD129,SCD130,SCD131,SCD132,SCD134,SCD135,SCD139,SCD142,SCD144,SCD146,SCD147,SCD148,SCD149,SCD150,SCD153,SCD155,SCD156,SCD157,SCD68,SCD69,SCD70,SCD72,SCD73,SCD85,SCD87,SCD88,SCD89,SCD90,SCD93,SCD96,SCD97,SCD99,SN19,SN21,SN22,SN23,SN24,SN25,SN26,SN27,SN28,SN29,SN36,SN37,SN38,SN39
+2025-03-18 20:48:16.06271 DEBUG::The following samples were found to have metadata but no features. They will be removed. HK1003,HK1004,HK1005,HK1006,HK1008,HK1021,HK1022,HK1024,HK1030,HK1031,HK1032,HK1035,HK1038,HK1041,HK1043,HK1044,HK1045,HK1047,HK1049,HK1050,HK1052,HK1053,HK1054,HK1055,HK1056,HK1057,HK1059,HK1061,HK1063,HK1064,HK1066,HK1067,HK1069,HK1070,HK1071,HK1072,HK1073,HK1074,HK1077,HK1079,HK1081,HK1083,HK1084,HK1085,HK1087,HK1089,HK1090,HK1092,HK1093,HK1094,HK1097,HK1098,HK1099,HK1102,HK1106,HK4001,HK4002,HK4004,HK4005,HK4006,HK4007,HK4008,HK4009,HK4010,HK4012,HK4018,HK4019,HK4023,HK4024
+2025-03-18 20:48:16.063021 DEBUG::A total of 410 samples were found in both the data and metadata
+2025-03-18 20:48:16.06329 DEBUG::Reordering data/metadata to use same sample ordering
+2025-03-18 20:48:16.065506 INFO::Formula for fixed effects: expr ~  Group
+2025-03-18 20:48:16.06715 INFO::Filter data based on min abundance and min prevalence
+2025-03-18 20:48:16.067929 INFO::Total samples in data: 410
+2025-03-18 20:48:16.068881 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-03-18 20:48:16.073765 INFO::Total filtered features: 0
+2025-03-18 20:48:16.074971 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-03-18 20:48:16.08196 INFO::Total filtered features with variance filtering: 0
+2025-03-18 20:48:16.083108 INFO::Filtered feature names from variance filtering:
+2025-03-18 20:48:16.083823 INFO::Running selected normalization method: NONE
+2025-03-18 20:48:16.084707 INFO::Bypass z-score application to metadata
+2025-03-18 20:48:16.085467 INFO::Running selected transform method: LOG
+2025-03-18 20:48:16.094472 INFO::Running selected analysis method: LM
+2025-03-18 20:48:16.095597 INFO::Creating cluster of 4 R processes
+2025-03-18 20:48:20.482004 INFO::Counting total values for each feature
+2025-03-18 20:48:20.493369 INFO::Writing filtered data to file output_Group_pathway_filter/features/filtered_data.tsv
+2025-03-18 20:48:20.538882 INFO::Writing filtered, normalized data to file output_Group_pathway_filter/features/filtered_data_norm.tsv
+2025-03-18 20:48:20.584017 INFO::Writing filtered, normalized, transformed data to file output_Group_pathway_filter/features/filtered_data_norm_transformed.tsv
+2025-03-18 20:48:20.645724 WARNING::Deleting existing residuals file: output_Group_pathway_filter/fits/residuals.rds
+2025-03-18 20:48:20.646857 INFO::Writing residuals to file output_Group_pathway_filter/fits/residuals.rds
+2025-03-18 20:48:20.689359 WARNING::Deleting existing fitted file: output_Group_pathway_filter/fits/fitted.rds
+2025-03-18 20:48:20.690444 INFO::Writing fitted values to file output_Group_pathway_filter/fits/fitted.rds
+2025-03-18 20:48:20.695202 INFO::Writing all results to file (ordered by increasing q-values): output_Group_pathway_filter/all_results.tsv
+2025-03-18 20:48:20.697475 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): output_Group_pathway_filter/significant_results.tsv
+2025-03-18 20:48:20.699383 INFO::Writing heatmap of significant results to file: output_Group_pathway_filter/heatmap.pdf
+2025-03-18 20:48:20.701676 INFO::Writing association plots (one for each significant association) to output folder: output_Group_pathway_filter
+2025-03-18 20:48:20.704743 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-03-18 20:48:20.705501 INFO::Plotting data for metadata number 1, Group
+2025-03-18 20:48:20.70735 INFO::Creating boxplot for categorical data, Group vs Pathway27
+2025-03-18 20:48:20.833513 INFO::Creating boxplot for categorical data, Group vs Pathway147
+2025-03-18 20:48:20.946765 INFO::Creating boxplot for categorical data, Group vs Pathway1
+2025-03-18 20:48:21.062038 INFO::Creating boxplot for categorical data, Group vs Pathway21
+2025-03-18 20:48:21.177725 INFO::Creating boxplot for categorical data, Group vs Pathway87
+2025-03-18 20:48:21.294307 INFO::Creating boxplot for categorical data, Group vs Pathway131
+2025-03-18 20:48:21.411538 INFO::Creating boxplot for categorical data, Group vs Pathway151
+2025-03-18 20:48:21.52923 INFO::Creating boxplot for categorical data, Group vs Pathway82
+2025-03-18 20:48:21.646796 INFO::Creating boxplot for categorical data, Group vs Pathway130
+2025-03-18 20:48:21.762935 INFO::Creating boxplot for categorical data, Group vs Pathway83
+2025-03-18 20:48:21.879484 INFO::Creating boxplot for categorical data, Group vs Pathway46
+2025-03-18 20:48:21.99561 INFO::Creating boxplot for categorical data, Group vs Pathway121
+2025-03-18 20:48:22.113233 INFO::Creating boxplot for categorical data, Group vs Pathway35
+2025-03-18 20:48:22.234451 INFO::Creating boxplot for categorical data, Group vs Pathway28
+2025-03-18 20:48:22.352513 INFO::Creating boxplot for categorical data, Group vs Pathway48
+2025-03-18 20:48:22.471232 INFO::Creating boxplot for categorical data, Group vs Pathway74
+2025-03-18 20:48:22.588804 INFO::Creating boxplot for categorical data, Group vs Pathway44
+2025-03-18 20:48:22.701845 INFO::Creating boxplot for categorical data, Group vs Pathway58
+2025-03-18 20:48:22.811625 INFO::Creating boxplot for categorical data, Group vs Pathway20
+2025-03-18 20:48:22.923696 INFO::Creating boxplot for categorical data, Group vs Pathway91
+2025-03-18 20:48:23.038412 INFO::Creating boxplot for categorical data, Group vs Pathway30
+2025-03-18 20:48:23.300737 INFO::Creating boxplot for categorical data, Group vs Pathway81
+2025-03-18 20:48:23.410498 INFO::Creating boxplot for categorical data, Group vs Pathway122
+2025-03-18 20:48:23.524883 INFO::Creating boxplot for categorical data, Group vs Pathway127
+2025-03-18 20:48:23.64189 INFO::Creating boxplot for categorical data, Group vs Pathway92
+2025-03-18 20:48:23.755629 INFO::Creating boxplot for categorical data, Group vs Pathway100
+2025-03-18 20:48:23.872061 INFO::Creating boxplot for categorical data, Group vs Pathway93
+2025-03-18 20:48:23.985063 INFO::Creating boxplot for categorical data, Group vs Pathway126
+2025-03-18 20:48:24.098162 INFO::Creating boxplot for categorical data, Group vs Pathway152
+2025-03-18 20:48:24.210845 INFO::Creating boxplot for categorical data, Group vs Pathway153
+2025-03-18 20:48:24.321473 INFO::Creating boxplot for categorical data, Group vs Pathway90
+2025-03-18 20:48:24.430559 INFO::Creating boxplot for categorical data, Group vs Pathway43
+2025-03-18 20:48:24.534511 INFO::Creating boxplot for categorical data, Group vs Pathway8
+2025-03-18 20:48:24.631922 INFO::Creating boxplot for categorical data, Group vs Pathway138
+2025-03-18 20:48:24.725555 INFO::Creating boxplot for categorical data, Group vs Pathway149
+2025-03-18 20:48:24.819441 INFO::Creating boxplot for categorical data, Group vs Pathway42
+2025-03-18 20:48:24.913432 INFO::Creating boxplot for categorical data, Group vs Pathway18
+2025-03-18 20:48:25.007497 INFO::Creating boxplot for categorical data, Group vs Pathway9
+2025-03-18 20:48:25.103014 INFO::Creating boxplot for categorical data, Group vs Pathway2
+2025-03-18 20:48:25.197478 INFO::Creating boxplot for categorical data, Group vs Pathway50
+2025-03-18 20:48:25.292884 INFO::Creating boxplot for categorical data, Group vs Pathway106
+2025-03-18 20:48:25.386383 INFO::Creating boxplot for categorical data, Group vs Pathway123
+2025-03-18 20:48:25.481126 INFO::Creating boxplot for categorical data, Group vs Pathway11
+2025-03-18 20:48:25.574862 INFO::Creating boxplot for categorical data, Group vs Pathway164
+2025-03-18 20:48:25.669343 INFO::Creating boxplot for categorical data, Group vs Pathway47
+2025-03-18 20:48:25.763735 INFO::Creating boxplot for categorical data, Group vs Pathway59
+2025-03-18 20:48:25.858234 INFO::Creating boxplot for categorical data, Group vs Pathway85
+2025-03-18 20:48:25.952646 INFO::Creating boxplot for categorical data, Group vs Pathway49
+2025-03-18 20:48:26.045729 INFO::Creating boxplot for categorical data, Group vs Pathway71
+2025-03-18 20:48:26.140499 INFO::Creating boxplot for categorical data, Group vs Pathway115
+2025-03-18 20:48:26.24673 INFO::Creating boxplot for categorical data, Group vs Pathway117
+2025-03-18 20:48:26.371109 INFO::Creating boxplot for categorical data, Group vs Pathway7
+2025-03-18 20:48:26.474996 INFO::Creating boxplot for categorical data, Group vs Pathway26
+2025-03-18 20:48:26.573558 INFO::Creating boxplot for categorical data, Group vs Pathway66
+2025-03-18 20:48:26.672467 INFO::Creating boxplot for categorical data, Group vs Pathway70
+2025-03-18 20:48:26.861639 INFO::Creating boxplot for categorical data, Group vs Pathway135
+2025-03-18 20:48:26.960928 INFO::Creating boxplot for categorical data, Group vs Pathway5
+2025-03-18 20:48:27.054701 INFO::Creating boxplot for categorical data, Group vs Pathway14
+2025-03-18 20:48:27.147874 INFO::Creating boxplot for categorical data, Group vs Pathway150
+2025-03-18 20:48:27.242774 INFO::Creating boxplot for categorical data, Group vs Pathway37
+2025-03-18 20:48:27.33888 INFO::Creating boxplot for categorical data, Group vs Pathway88
+2025-03-18 20:48:27.435577 INFO::Creating boxplot for categorical data, Group vs Pathway99
+2025-03-18 20:48:27.530715 INFO::Creating boxplot for categorical data, Group vs Pathway129
+2025-03-18 20:48:27.627151 INFO::Creating boxplot for categorical data, Group vs Pathway159
+2025-03-18 20:48:27.723267 INFO::Creating boxplot for categorical data, Group vs Pathway19
+2025-03-18 20:48:27.817535 INFO::Creating boxplot for categorical data, Group vs Pathway36
+2025-03-18 20:48:27.974802 INFO::Creating boxplot for categorical data, Group vs Pathway124
+2025-03-18 20:48:28.074108 INFO::Creating boxplot for categorical data, Group vs Pathway45
+2025-03-18 20:48:28.170155 INFO::Creating boxplot for categorical data, Group vs Pathway64
+2025-03-18 20:48:28.268927 INFO::Creating boxplot for categorical data, Group vs Pathway104
+2025-03-18 20:48:28.364287 INFO::Creating boxplot for categorical data, Group vs Pathway29
+2025-03-18 20:48:28.458797 INFO::Creating boxplot for categorical data, Group vs Pathway34
+2025-03-18 20:48:28.55888 INFO::Creating boxplot for categorical data, Group vs Pathway56
+2025-03-18 20:48:28.659162 INFO::Creating boxplot for categorical data, Group vs Pathway118
+2025-03-18 20:48:28.754619 INFO::Creating boxplot for categorical data, Group vs Pathway6
+2025-03-18 20:48:28.849398 INFO::Creating boxplot for categorical data, Group vs Pathway102
+2025-03-18 20:48:28.943532 INFO::Creating boxplot for categorical data, Group vs Pathway134
+2025-03-18 20:48:29.039167 INFO::Creating boxplot for categorical data, Group vs Pathway133
+2025-03-18 20:48:29.134199 INFO::Creating boxplot for categorical data, Group vs Pathway79
+2025-03-18 20:48:29.22837 INFO::Creating boxplot for categorical data, Group vs Pathway112
+2025-03-18 20:48:29.322403 INFO::Creating boxplot for categorical data, Group vs Pathway69
+2025-03-18 20:48:29.417472 INFO::Creating boxplot for categorical data, Group vs Pathway13
+2025-03-18 20:48:29.511698 INFO::Creating boxplot for categorical data, Group vs Pathway145
+2025-03-18 20:48:29.606231 INFO::Creating boxplot for categorical data, Group vs Pathway31
+2025-03-18 20:48:29.700203 INFO::Creating boxplot for categorical data, Group vs Pathway57
+2025-03-18 20:48:29.793617 INFO::Creating boxplot for categorical data, Group vs Pathway73
+2025-03-18 20:48:29.887157 INFO::Creating boxplot for categorical data, Group vs Pathway15
+2025-03-18 20:48:29.981344 INFO::Creating boxplot for categorical data, Group vs Pathway80
+2025-03-18 20:48:30.074958 INFO::Creating boxplot for categorical data, Group vs Pathway119
+2025-03-18 20:48:30.168897 INFO::Creating boxplot for categorical data, Group vs Pathway110
+2025-03-18 20:48:30.288814 INFO::Creating boxplot for categorical data, Group vs Pathway162
+2025-03-18 20:48:30.381128 INFO::Creating boxplot for categorical data, Group vs Pathway111
+2025-03-18 20:48:30.47338 INFO::Creating boxplot for categorical data, Group vs Pathway108
+2025-03-18 20:48:30.565825 INFO::Creating boxplot for categorical data, Group vs Pathway116
+2025-03-18 20:48:30.660811 INFO::Creating boxplot for categorical data, Group vs Pathway72
+2025-03-18 20:48:30.753607 INFO::Creating boxplot for categorical data, Group vs Pathway4
+2025-03-18 20:48:30.846803 INFO::Creating boxplot for categorical data, Group vs Pathway51
+2025-03-18 20:48:30.94824 INFO::Creating boxplot for categorical data, Group vs Pathway39
+2025-03-18 20:48:31.078303 INFO::Creating boxplot for categorical data, Group vs Pathway97
+2025-03-18 20:48:31.201561 INFO::Creating boxplot for categorical data, Group vs Pathway154
+2025-03-18 20:48:31.32093 INFO::Creating boxplot for categorical data, Group vs Pathway54
+2025-03-18 20:48:31.422398 INFO::Creating boxplot for categorical data, Group vs Pathway141
+2025-03-18 20:48:31.516136 INFO::Creating boxplot for categorical data, Group vs Pathway89
+2025-03-18 20:48:31.609455 INFO::Creating boxplot for categorical data, Group vs Pathway136
+2025-03-18 20:48:31.703091 INFO::Creating boxplot for categorical data, Group vs Pathway95
+2025-03-18 20:48:31.796868 INFO::Creating boxplot for categorical data, Group vs Pathway10
+2025-03-18 20:48:31.890461 INFO::Creating boxplot for categorical data, Group vs Pathway114
+2025-03-18 20:48:31.984213 INFO::Creating boxplot for categorical data, Group vs Pathway22
+2025-03-18 20:48:32.078036 INFO::Creating boxplot for categorical data, Group vs Pathway120
+2025-03-18 20:48:32.171716 INFO::Creating boxplot for categorical data, Group vs Pathway75
+2025-03-18 20:48:32.267201 INFO::Creating boxplot for categorical data, Group vs Pathway61
+2025-03-18 20:48:32.360275 INFO::Creating boxplot for categorical data, Group vs Pathway148
+2025-03-18 20:48:32.453263 INFO::Creating boxplot for categorical data, Group vs Pathway125
+2025-03-18 20:48:32.546477 INFO::Creating boxplot for categorical data, Group vs Pathway84
+2025-03-18 20:48:32.639779 INFO::Creating boxplot for categorical data, Group vs Pathway142
+2025-03-18 20:48:32.733035 INFO::Creating boxplot for categorical data, Group vs Pathway113
+2025-03-18 20:48:32.826546 INFO::Creating boxplot for categorical data, Group vs Pathway12
+2025-03-18 20:48:32.920894 INFO::Creating boxplot for categorical data, Group vs Pathway33
+2025-03-18 20:48:33.015953 INFO::Creating boxplot for categorical data, Group vs Pathway109
+2025-03-18 20:48:33.111012 INFO::Creating boxplot for categorical data, Group vs Pathway41
+2025-03-18 20:48:33.205341 INFO::Creating boxplot for categorical data, Group vs Pathway103
+2025-03-18 20:48:33.300761 INFO::Creating boxplot for categorical data, Group vs Pathway96
+2025-03-18 20:48:33.396376 INFO::Creating boxplot for categorical data, Group vs Pathway60
+2025-03-18 20:48:33.491069 INFO::Creating boxplot for categorical data, Group vs Pathway77
+2025-03-18 20:48:33.613639 INFO::Creating boxplot for categorical data, Group vs Pathway24
+2025-03-18 20:48:33.707907 INFO::Creating boxplot for categorical data, Group vs Pathway78
+2025-03-18 20:48:33.801538 INFO::Creating boxplot for categorical data, Group vs Pathway32
+2025-03-18 20:48:33.896251 INFO::Creating boxplot for categorical data, Group vs Pathway52
+2025-03-18 20:48:33.989259 INFO::Creating boxplot for categorical data, Group vs Pathway76
+2025-03-18 20:48:34.083734 INFO::Creating boxplot for categorical data, Group vs Pathway86
+2025-03-18 20:48:34.177971 INFO::Creating boxplot for categorical data, Group vs Pathway158
+2025-03-18 20:48:34.272153 INFO::Creating boxplot for categorical data, Group vs Pathway161
+2025-03-18 20:48:34.364751 INFO::Creating boxplot for categorical data, Group vs Pathway3
+2025-03-18 20:48:34.460281 INFO::Creating boxplot for categorical data, Group vs Pathway166
+2025-03-18 20:48:34.564738 INFO::Creating boxplot for categorical data, Group vs Pathway65
+2025-03-18 20:48:34.662741 INFO::Creating boxplot for categorical data, Group vs Pathway165
+2025-03-18 20:48:34.781623 INFO::Creating boxplot for categorical data, Group vs Pathway160
+2025-03-18 20:48:34.880016 INFO::Creating boxplot for categorical data, Group vs Pathway137
+2025-03-18 20:48:34.975424 INFO::Creating boxplot for categorical data, Group vs Pathway63
+2025-03-18 20:48:35.069473 INFO::Creating boxplot for categorical data, Group vs Pathway143
+2025-03-18 20:48:35.164101 INFO::Creating boxplot for categorical data, Group vs Pathway144
+2025-03-18 20:48:35.259854 INFO::Creating boxplot for categorical data, Group vs Pathway155
+2025-03-18 20:48:35.354979 INFO::Creating boxplot for categorical data, Group vs Pathway156
+2025-03-18 20:48:35.452685 INFO::Creating boxplot for categorical data, Group vs Pathway67
+2025-03-18 20:48:35.546284 INFO::Creating boxplot for categorical data, Group vs Pathway16
