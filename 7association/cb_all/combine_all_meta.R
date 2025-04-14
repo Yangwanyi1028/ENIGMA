@@ -63,10 +63,17 @@ feature_status_annotations <- feature_status_annotations[,c(1,3)]
 names(feature_status_annotations) <- c('features','CD_status')
 
 # 自定义函数：保存 pheatmap 为 PNG，动态调整大小
-save_pheatmap_png <- function(x, filename, nrow, ncol, res = 300) {
-  # 根据行列数动态调整宽度和高度
-  width <- max(3000, ncol * 50) + 1000  # 每列 50 像素，最小宽度 3000
-  height <- max(3000, nrow * 50) # 每行 50 像素，最小高度 3000
+save_pheatmap_png <- function(x, filename, nrow, ncol, res = 300, caller = "process_dataset") {
+  # 根据调用者动态调整宽度和高度
+  if (caller == "process_dataset") {
+    width <- max(3000, ncol * 50) + 1000  
+    height <- max(3000, nrow * 50) 
+  } else if (caller == "process_demographic_association") {
+    width <- max(2000, ncol * 50)   
+    height <- max(3000, nrow * 50) 
+  } else {
+    stop("Invalid caller specified. Use 'process_dataset' or 'process_demographic_association'.")
+  }
   
   png(filename, width = width, height = height, res = res)
   grid::grid.draw(x)
@@ -100,7 +107,7 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
   if (sortPhenos) {
     heatmap_data <- heatmap_data[, order(colnames(heatmap_data))]
   }
-  
+
   # 设置颜色
   paletteLength <- nrColors
   myColor <- colorRampPalette(c("Orange", "white", "Darkblue"))(paletteLength)
@@ -139,11 +146,15 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
     filter(features %in% rownames(heatmap_data)) %>%
     column_to_rownames("features")
   
+  # 根据 CD_status 对行排序
+  # sorted_rows <- order(annotation_row$CD_status, rownames(heatmap_data))
+  # heatmap_data <- heatmap_data[sorted_rows, ]
+  # annotation_row <- annotation_row[sorted_rows, ]
   # 定义行注释颜色
   annotation_colors <- list(
     CD_status = c(
-      "CD_enriched" = "#ec9191",  # 红色
-      "CD_depleted" = "#65b6f8"   # 蓝色
+      "CD_enriched" = "#ab6355",  # 红色
+      "CD_depleted" = "#90a5a7"   # 蓝色
     ),
     Category = c(
       "Recent Addictives"  = "#df7a7ba4",    # 红色
@@ -152,7 +163,11 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
       "Other" = "grey"
     )
   )
-  
+
+  # 计算 gaps_row 的位置
+  # gaps_row <- which(diff(as.numeric(factor(annotation_row$CD_status))) != 0)
+  gaps_col <- which(diff(as.numeric(factor(annotation_col$Category))) != 0)
+
   # 绘制热图
   phm <- pheatmap(heatmap_data, 
                   color = myColor,
@@ -163,13 +178,14 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
                   annotation_row = annotation_row,  # 添加行注释
                   annotation_colors = annotation_colors,  # 注释颜色
                   fontsize = 10,  # 字体大小
-                  border_color = "#EEEEEE",  # 边框颜色
-                  na_col = "white",  # 缺失值颜色
+                  border_color = NA,  # 边框颜色
+                  # na_col = "white",  # 缺失值颜色
                   display_numbers = significance_data,  # 显著性标注
                   fontsize_number = 8,  # 标注字体大小
                   angle_col = 315,
                   annotation_names_col = TRUE,  # 显示注释名称
-                  annotation_legend = TRUE)     # 显示图例
+                  annotation_legend = TRUE,     # 显示图例
+                  gaps_col = gaps_col)          # 添加行分隔
   
   if (retData) {
     return(list(heatmap_data, phm))
@@ -215,7 +231,7 @@ generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "esti
   ncol <- length(phenos_to_plot)    # 列数为表型数
   
   # 保存热图
-  save_pheatmap_png(phm[[2]], filename = output_file, nrow = nrow, ncol = ncol, res = 300)
+  save_pheatmap_png(phm[[2]], filename = output_file, nrow = nrow, ncol = ncol, res = 300, caller = "process_dataset")
 }
 
 # Define file paths and their identifiers
