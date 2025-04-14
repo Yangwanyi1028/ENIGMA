@@ -76,7 +76,8 @@ save_pheatmap_png <- function(x, filename, nrow, ncol, res = 300) {
 # 自定义函数：绘制热图
 plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, featuresToPlot, 
                                           nrFeaturesToPlot = 50, nrColors = 13, 
-                                          sortPhenos = FALSE, retData = FALSE, fdrCutoff = 0.05) {
+                                          sortPhenos = FALSE, retData = FALSE, fdrCutoff = 0.05,
+                                          addColAnnotation = TRUE) {  # 新增参数 addColAnnotation
   # 筛选需要绘制的表型和特征
   inData <- inData %>%
     filter(phenotype %in% phenosToPlot & feature_name %in% featuresToPlot)
@@ -151,14 +152,15 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
       "Other" = "grey"
     )
   )
+  
   # 绘制热图
   phm <- pheatmap(heatmap_data, 
                   color = myColor,
                   breaks = myBreaks,
                   cluster_rows = FALSE,  # 不聚类行
                   cluster_cols = FALSE,  # 不聚类列
-                  annotation_col = annotation_col,  # 添加列注释
-                  annotation_row = annotation_row,  # 添加列注释
+                  annotation_col = if (addColAnnotation) annotation_col else NULL,  # 根据条件添加列注释
+                  annotation_row = annotation_row,  # 添加行注释
                   annotation_colors = annotation_colors,  # 注释颜色
                   fontsize = 10,  # 字体大小
                   border_color = "#EEEEEE",  # 边框颜色
@@ -177,7 +179,7 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
 }
 
 # 修改 generate_heatmap 函数，动态调整热图大小
-generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "estimate") {
+generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "estimate", addColAnnotation = TRUE) {
   # 读取数据
   data <- read_csv(data_file, show_col_types = FALSE)
   
@@ -204,7 +206,8 @@ generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "esti
     nrFeaturesToPlot = length(features_to_plot),  # 绘制所有特征
     nrColors = 13,  # 配色梯度
     sortPhenos = FALSE,  # 不排序
-    retData = TRUE
+    retData = TRUE,
+    addColAnnotation = addColAnnotation  # 传递参数
   )
   
   # 动态调整图像大小
@@ -293,36 +296,8 @@ process_dataset <- function(file_path, prefix) {
       )
   }
   
-  # 生成可视化
-  association_plot <- ggplot(association_results, aes(estimate, -log10(p.value), 
-                                                      color = fdr < 0.05, shape = metadata_var)) +
-    geom_point(aes(size = abs(estimate)), alpha = 0.8) +
-    geom_vline(xintercept = 0, linetype = 2) +
-    scale_shape_manual(values = seq(16, 16 + length(unique(association_results$metadata_var)) - 1)) + # 动态生成形状
-    labs(title = "ARG-Clinical Data Associations",
-         x = "Effect Size (Estimate)",
-         y = "-log10(p-value)",
-         color = "FDR < 0.05",
-         shape = "Clinical Variable")
-  
-  # 绘制森林图
-  forest_plot <- ggplot(association_results, aes(x = estimate, y = metadata_var)) +
-    geom_point(aes(color = fdr < 0.05), size = 3) + # 效应值点
-    geom_errorbarh(aes(xmin = conf.low, xmax = conf.high, color = fdr < 0.05), height = 0.2) + # 置信区间
-    scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black")) + # 显著性颜色
-    labs(
-      title = "Forest Plot of ARG-Clinical Associations",
-      x = "Effect Size (Estimate)",
-      y = "Clinical Variable",
-      color = "FDR < 0.05"
-    ) +
-    theme_minimal() +
-    theme(axis.text.y = element_text(size = 10)) # 调整 y 轴文本大小
-  
   # 保存结果
   write_csv(association_results, paste0(prefix, "_clinical_associations.csv"))
-  ggsave(paste0(prefix, "_clinical_volcano.png"), association_plot, width = 12, height = 8)
-  ggsave(paste0(prefix, "_clinical_forest.png"), forest_plot, width = 12, height = 8)
   
   # Generate and save heatmap
   generate_heatmap(
@@ -388,42 +363,15 @@ process_demographic_association <- function(file_path, prefix) {
       )
   }
   
-  # 生成可视化
-  association_plot <- ggplot(association_results, aes(estimate, -log10(p.value), 
-                                                      color = fdr < 0.05, shape = metadata_var)) +
-    geom_point(aes(size = abs(estimate)), alpha = 0.8) +
-    geom_vline(xintercept = 0, linetype = 2) +
-    scale_shape_manual(values = seq(16, 16 + length(unique(association_results$metadata_var)) - 1)) + # 动态生成形状
-    labs(title = "Demographic-Feature Associations",
-         x = "Effect Size (Estimate)",
-         y = "-log10(p-value)",
-         color = "FDR < 0.05",
-         shape = "Demographic Variable")
-  
-  # 绘制森林图
-  forest_plot <- ggplot(association_results, aes(x = estimate, y = metadata_var)) +
-    geom_point(aes(color = fdr < 0.05), size = 3) + # 效应值点
-    geom_errorbarh(aes(xmin = conf.low, xmax = conf.high, color = fdr < 0.05), height = 0.2) + # 置信区间
-    scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black")) + # 显著性颜色
-    labs(
-      title = "Forest Plot of Demographic-Feature Associations",
-      x = "Effect Size (Estimate)",
-      y = "Demographic Variable",
-      color = "FDR < 0.05"
-    ) +
-    theme_minimal() +
-    theme(axis.text.y = element_text(size = 10)) # 调整 y 轴文本大小
-  
   # 保存结果
   write_csv(association_results, paste0(prefix, "_demographic_associations.csv"))
-  ggsave(paste0(prefix, "_demographic_volcano.png"), association_plot, width = 12, height = 8)
-  ggsave(paste0(prefix, "_demographic_forest.png"), forest_plot, width = 12, height = 8)
   
   # Generate and save heatmap
   generate_heatmap(
     paste0(prefix, "_demographic_associations.csv"),
     paste0(prefix, "_demographic_associations_annotated.png"),
-    paste0(toupper(prefix), " Demographic Associations")
+    paste0(toupper(prefix), " Demographic Associations"),
+    addColAnnotation = FALSE  # 传递参数
   )
   
   return(association_results)
