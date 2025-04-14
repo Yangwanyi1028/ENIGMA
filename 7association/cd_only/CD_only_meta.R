@@ -83,7 +83,8 @@ save_pheatmap_png <- function(x, filename, nrow, ncol, res = 300) {
 # Custom function: Plot heatmap
 plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, featuresToPlot, 
                                           nrFeaturesToPlot = 50, nrColors = 13, 
-                                          sortPhenos = FALSE, retData = FALSE, fdrCutoff = 0.05) {
+                                          sortPhenos = FALSE, retData = FALSE, fdrCutoff = 0.05,
+                                          addColAnnotation = TRUE) {
   # Filter data
   inData <- inData %>%
     filter(phenotype %in% phenosToPlot & feature_name %in% featuresToPlot)
@@ -133,9 +134,11 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
     Category = rep("Other", length(phenosToPlot)),
     row.names = phenosToPlot
   )
-  annotation_col$Category[phenosToPlot %in% clinical_annotations$disease_status] <- "Disease Status"
-  annotation_col$Category[phenosToPlot %in% clinical_annotations$medication_status] <- "Medication Status"
-  annotation_col$Category[phenosToPlot %in% clinical_annotations$biomarkers] <- "Biomarkers"
+  if (addColAnnotation) {
+    annotation_col$Category[phenosToPlot %in% clinical_annotations$disease_status] <- "Disease Status"
+    annotation_col$Category[phenosToPlot %in% clinical_annotations$medication_status] <- "Medication Status"
+    annotation_col$Category[phenosToPlot %in% clinical_annotations$biomarkers] <- "Biomarkers"
+  }
 
   # Row annotations
   annotation_row <- feature_status_annotations %>%
@@ -145,8 +148,8 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
   # Define annotation colors
   annotation_colors <- list(
     CD_status = c(
-      "CD_enriched" = "#6d2323",
-      "CD_depleted" = "#22425c"
+      "CD_enriched" = "#ec9191",  # 红色
+      "CD_depleted" = "#65b6f8"   # 蓝色
     ),
     Category = c(
       "Disease Status" = "#df7a7ba4",
@@ -162,7 +165,7 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
                   breaks = myBreaks,
                   cluster_rows = FALSE,
                   cluster_cols = FALSE,
-                  annotation_col = annotation_col,
+                  annotation_col = if (addColAnnotation) annotation_col else NULL,
                   annotation_row = annotation_row,
                   annotation_colors = annotation_colors,
                   fontsize = 10,
@@ -182,7 +185,7 @@ plotAssociationsDag3HeatmapV2 <- function(inData, phenosToPlot, statToPlot, feat
 }
 
 # Generate heatmap
-generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "estimate") {
+generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "estimate", addColAnnotation = TRUE) {
   data <- read_csv(data_file, show_col_types = FALSE)
   
   if (!"metadata_var" %in% colnames(data) || !"feature_name" %in% colnames(data)) {
@@ -204,7 +207,8 @@ generate_heatmap <- function(data_file, output_file, title, stat_to_plot = "esti
     nrFeaturesToPlot = length(features_to_plot),
     nrColors = 13,
     sortPhenos = FALSE,
-    retData = TRUE
+    retData = TRUE,
+    addColAnnotation = addColAnnotation
   )
   
   nrow <- length(features_to_plot)
@@ -270,7 +274,6 @@ process_dataset <- function(file_path, prefix) {
   )
 }
 
-
 # 新增函数：处理 demographic_data 和 feature 文件的关联分析
 process_demographic_association <- function(file_path, prefix) {
   # Load abundance data
@@ -332,7 +335,8 @@ process_demographic_association <- function(file_path, prefix) {
   generate_heatmap(
     paste0(prefix, "_demographic_associations.csv"),
     paste0(prefix, "_demographic_associations_annotated.png"),
-    paste0(toupper(prefix), " Demographic Associations")
+    paste0(toupper(prefix), " Demographic Associations"),
+    addColAnnotation = FALSE
   )
   
   return(association_results)
